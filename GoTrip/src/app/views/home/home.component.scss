@@ -1,0 +1,91 @@
+
+.seccion-buscador {
+  border: 2px solid red;
+  margin-top: 20px;
+}
+
+.form{
+  position: relative;
+}
+
+.form .fa-search{
+
+  position: absolute;
+  top:20px;
+  left: 20px;
+  color: #ffffff;
+
+}
+
+.form span{
+
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+  padding-left: 7px;
+}
+
+.left-pan i{
+
+  padding-left: 10px;
+}
+
+.form-input{
+  background-color: rgba(8, 70, 231, 0.73);
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+  color: white;
+}
+
+.form-input:focus{
+
+  box-shadow: none;
+  border:none;
+}
+
+
+
+.toolbarNav {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-top: 2px solid black;
+}
+
+.lista-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  list-style: none;
+  text-decoration: none;
+  width: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fa-solid {
+  font-size: 30px;
+  color: #000000;
+}
