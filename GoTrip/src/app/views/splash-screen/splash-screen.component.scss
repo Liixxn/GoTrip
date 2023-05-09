@@ -1,0 +1,40 @@
+$gotrip-color: #1F5EFD;
+
+
+
+.app-splash-screen {
+  background: $gotrip-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  transition: left 0.5s;
+}
+
+.app-splash-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.app-logo {
+  height: 100%;
+  width: 100%;
+}
+
+
+.app-loader {
+  width: 25%;
+  height: 50%;
+  margin-top: 100px;
+}
