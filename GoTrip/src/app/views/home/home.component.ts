@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  ciudades = ["Kyoto", "Madrid", "Zurich"];
+
 }

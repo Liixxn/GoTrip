@@ -1,56 +1,101 @@
+$gotrip-color: #1F5EFD;
+
 
 .seccion-buscador {
-  border: 2px solid red;
+  position: sticky;
   margin-top: 20px;
 }
 
-.form{
+
+.form {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form .fa-search{
-
-  position: absolute;
-  top:20px;
-  left: 20px;
-  color: #ffffff;
-
-}
-
-.form span{
-
-  position: absolute;
-  right: 17px;
-  top: 13px;
-  padding: 2px;
-  border-left: 1px solid #d1d5db;
-
-}
-
-.left-pan{
-  padding-left: 7px;
-}
-
-.left-pan i{
-
-  padding-left: 10px;
-}
-
-.form-input{
-  background-color: rgba(8, 70, 231, 0.73);
-  height: 55px;
-  text-indent: 33px;
+.form-control {
+  background: rgba(8, 70, 231, 0.73);
   border-radius: 10px;
+  text-indent: 33px;
   color: white;
 }
 
-.form-input:focus{
+.form-control[type=text] {
 
-  box-shadow: none;
-  border:none;
+  width: 100%;
+  padding: 12px 35px;
+  box-sizing: border-box;
+  border: 2px solid green;
+}
+
+.span-eliminar {
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.fa-solid.fa-search {
+  position: absolute;
+  left: 10px;
+  color: #ffffff;
+}
+
+.span-eliminar {
+  position: absolute;
+  right: 10px;
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+
+.fa.fa-x {
+  color: #ffffff;
+}
+
+.fa.fa-x:hover {
+  cursor: pointer;
 }
 
 
+
+.contenedor-buscados {
+  margin-top: 20px;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.btn-busqueda {
+  background: rgba(8, 70, 231, 0.42);
+  border-radius: 10px;
+  width: 80px;
+  height: 30px
+}
+
+
+
+
+
+.seccion-tarjetas {
+  margin: 40px 25px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+}
+
+
+
+
+/* BARRA DE NAVEGACION */
 
 .toolbarNav {
   position: fixed;
@@ -84,8 +129,16 @@
   justify-content: center;
 }
 
-
 .fa-solid {
-  font-size: 30px;
-  color: #000000;
+  font-size: 25px;
+}
+
+.nav-item:hover .fa-solid,
+  .nav-item:active .fa-solid,
+  .nav-item:focus .fa-solid {
+  color: #1F5EFD;
+}
+
+.nav-item.active {
+  color: #1F5EFD;
 }
