@@ -14,11 +14,11 @@
 
   <div class="contenedor-buscados">
     <div class="container">
-      <h3>Búsquedas recientes</h3>
+      <!--<i class="fa-solid fa-search" style="color:black;"></i>-->
       <div class="row">
         <div class="col-md-4">
           <div class="lugarBuscado" *ngFor="let ciudad of ciudades">
-            <i class="fa-solid fa-search" style="color:black;"></i>
+
             <button class="btn-busqueda" role="button">{{ ciudad }}</button>
           </div>
         </div>
@@ -30,104 +30,58 @@
 
 
 <section class="seccion-tarjetas">
-  <div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <h3>¡Conoce nuestros packs de viaje!</h3>
+    <div class="scroll-content">
+      <div class="card">
+        <img class="card-img-top" src="https://eldiariony.com/wp-content/uploads/sites/2/2021/04/nueva-york-shutterstock_57571180.jpg?quality=75&strip=all&w=1200"
+             alt="Foto de la estatua de La Libertad">
+        <div class="card-body">
+          <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png"></span>
+          <span class="nombre-pais">USA</span>
+          <span class="rating-pais">
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span>
+          </span>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+      <div class="card">
+        <img class="card-img-top" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/16/a6/88/con-la-primavera-in-giappone.jpg?w=700&h=-1&s=1"
+             alt="Foto de una pagoda japonesa">
+        <div class="card-body">
+          <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"></span>
+          <span class="nombre-pais">Japón</span>
+          <span class="rating-pais">
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span>
+          </span>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+
+      <div class="card">
+        <img class="card-img-top" src="https://images.ecestaticos.com/6lNdBlA5P-RyU-ZAW6a-1rkUeJY=/1x118:2271x1394/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdca%2Fe5e%2Fc23%2Fdcae5ec23094c61634c4abf5b395b05c.jpg"
+             alt="Foto de Gran Vía, Madrid">
+        <div class="card-body">
+          <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_España.svg/2560px-Bandera_de_España.svg.png"></span>
+          <span class="nombre-pais">España</span>
+          <span class="rating-pais">
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span>
+          </span>
+        </div>
       </div>
+
     </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
 </section>
 
 
