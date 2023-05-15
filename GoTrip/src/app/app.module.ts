@@ -10,6 +10,8 @@ import { HomeComponent } from './views/home/home.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
+import { GuardadosComponent } from './views/guardados/guardados.component';
+import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegacion.component';
 
 
 
@@ -17,7 +19,9 @@ import {MatIconModule} from "@angular/material/icon";
   declarations: [
     AppComponent,
     SplashScreenComponent,
-    HomeComponent
+    HomeComponent,
+    GuardadosComponent,
+    BarraNavegacionComponent
   ],
   imports: [
     BrowserModule,

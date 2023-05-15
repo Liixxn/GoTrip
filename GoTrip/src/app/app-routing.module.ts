@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
+import { GuardadosComponent} from "./views/guardados/guardados.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'home', component: HomeComponent }
+  { path: 'home', component: HomeComponent},
+  { path: 'guardados', component: GuardadosComponent}
 
 ];
 
