@@ -1,0 +1,112 @@
+.atras {
+    text-align: left;
+  
+  }
+  .registro-title{
+    font-family: 'Source Code Pro';
+    color: #0846E7;
+  }
+  
+  .registroform {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+  }
+  .imagen-registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .imagen-registro img {
+      text-align: center;
+      width: 80%;
+      margin-bottom: 10%;
+    }
+  
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 20%;
+    max-width: 400px;
+    
+  }
+  
+  .usernameinputdiv label, .passwordinputdiv label {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    margin-bottom: 4%;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+  }
+  
+  .usernameinput {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 7%;
+    box-sizing: border-box;
+    background: rgba(8, 70, 231, 0.42);
+  
+  }
+  .passwordinput {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    background: rgba(8, 70, 231, 0.42);
+  
+  }
+  .registro-btn {
+    padding: 10px 20px;
+    background-color: #0846E7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+  }
+  
+  .registro-btn:hover {
+    background-color: #00688B;
+  }
+  
+  .forgot-link{
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+    color: #3051FF;
+  }
+  
+  .register-link {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #3051FF;
+  }
+  .passwordinput {
+    position: relative;
+  }
+  
+  
