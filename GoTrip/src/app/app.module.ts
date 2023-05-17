@@ -18,6 +18,7 @@ import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegac
 import { RegistroComponent } from './views/registro/registro.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent } from './views/carrusel/carrusel.component';
+import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CarruselComponent } from './views/carrusel/carrusel.component';
     BarraNavegacionComponent,
     RegistroComponent,
     PerfilComponent,
-    CarruselComponent
+    CarruselComponent,
+    ConfiguracionComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,7 @@ import { GuardadosComponent} from "./views/guardados/guardados.component";
 import { RegistroComponent } from './views/registro/registro.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent} from "./views/carrusel/carrusel.component";
+import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: 'tour-list', component: TourListComponent },
   { path: 'perfil', component: PerfilComponent},
   { path: 'guardados', component: GuardadosComponent},
-  { path: 'carrusel', component: CarruselComponent}
+  { path: 'carrusel', component: CarruselComponent},
+  {path: 'configuracion', component: ConfiguracionComponent}
 
 ];
 
