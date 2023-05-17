@@ -17,6 +17,7 @@ import { GuardadosComponent } from './views/guardados/guardados.component';
 import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegacion.component';
 import { RegistroComponent } from './views/registro/registro.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
+import { CarruselComponent } from './views/carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PerfilComponent } from './views/perfil/perfil.component';
     GuardadosComponent,
     BarraNavegacionComponent,
     RegistroComponent,
-    PerfilComponent
+    PerfilComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,

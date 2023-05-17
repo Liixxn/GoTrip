@@ -8,6 +8,7 @@ import { TourListComponent } from './views/tour-list/tour-list.component';
 import { GuardadosComponent} from "./views/guardados/guardados.component";
 import { RegistroComponent } from './views/registro/registro.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
+import { CarruselComponent} from "./views/carrusel/carrusel.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -16,7 +17,9 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent},
   { path: 'tour-list', component: TourListComponent },
-  { path: 'perfil', component: PerfilComponent}
+  { path: 'perfil', component: PerfilComponent},
+  { path: 'guardados', component: GuardadosComponent},
+  { path: 'carrusel', component: CarruselComponent}
 
 ];
 
