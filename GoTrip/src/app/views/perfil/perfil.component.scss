@@ -1,5 +1,4 @@
 
-
   .container{
   display: flex;
   height: 100vh;
@@ -10,6 +9,7 @@
 
   .background{
   width: 100%;
+  align-content: center;
   position: relative;
   
 
@@ -42,7 +42,7 @@
   .profile{
   position: absolute;
   top:-50px;
-  left: 38%;
+  left: 40%;
   height: 90px;
   width: 90px;
   border:3px solid #fff;
@@ -54,4 +54,42 @@
 .content{
   margin-top: 100px;
 }
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+.card {
+  display: inline-block;
+}
+}
 
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  
+  .card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+  }
+}
+
+.card {
+  flex: 0 0 auto;
+  
+  margin-left: 10px;
+  width: 150px;
+  height: 270px;
+  background: yellow;
+}
+
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+  height: 270px;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
