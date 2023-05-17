@@ -6,7 +6,6 @@ import { LoginComponent } from './views/login/login.component';
 import { RegistroComponent } from './views/registro/registro.component';
 import { TourListComponent } from './views/tour-list/tour-list.component';
 import { GuardadosComponent} from "./views/guardados/guardados.component";
-import { RegistroComponent } from './views/registro/registro.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent} from "./views/carrusel/carrusel.component";
 import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
@@ -14,12 +13,11 @@ import { ConfiguracionComponent } from './views/configuracion/configuracion.comp
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'home', component: HomeComponent},
-  { path: 'guardados', component: GuardadosComponent}
+  { path: 'guardados', component: GuardadosComponent},
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent},
   { path: 'tour-list', component: TourListComponent },
   { path: 'perfil', component: PerfilComponent},
-  { path: 'guardados', component: GuardadosComponent},
   { path: 'carrusel', component: CarruselComponent},
   {path: 'configuracion', component: ConfiguracionComponent}
 
