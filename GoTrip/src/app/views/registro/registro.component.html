@@ -1,47 +1,33 @@
 
+
 <span class="atras">
     <img src="assets/atras.png" alt="boton_atras">
 </span>
-
-<div class="registerpage">
-        
-    <div class = "registrolabel">
-        <label>Registrarse </label>
-    </div>
-    
-    <div class = "registerlogo">
-        <img src="assets/rectangle.png" alt="boton_atras">
-    </div>
-    
-    
-    <div class = "inputs">
-        <div class = "correoinputdiv">
-            <label>Correo : </label><br>  
+<form class="registroform">
+    <h1 class="registro-title">Regístrate</h1>
+    <span class="imagen-registro">
+    <img src="assets/imagenRegistro.png" alt="logo">
+    </span>
+    <div class="inputs">
+        <div class="usernameinputdiv">
+            <label>Correo : </label><br>
             <input class="usernameinput" type="text" name="username">
-        </div>
-    
-        <div class = "passwordinputdiv">
-            <label>Contraseña : </label><br>  
-            <input class="passwordinput" type="text" name="username">
-        </div>
-    
-        <div class = "confirmpasswordinputdiv">
-            <label>Confirmar Contraseña : </label><br>  
-            <input class="confirmpasswordinput" type="text" name="username">
-        </div>
-    
-    
-        <div class = "register-btndiv">
-        
-            <button class="register-btn">Registrar</button>
-    
-        </div>
+            </div>
 
+            <div class="passwordinputdiv">
+            <label>Contraseña : </label><br>
+            <input class="passwordinput" type="password" name="password">
+            <label>Confirmar Contraseña : </label><br>
+            <input class="passwordinput" type="password" name="password">
 
-        <div class = "login-link">
-            <a class ="login-link" href="url">¿Ya tienes cuenta?</a>
         </div>
-    
-
     </div>
-</div>
+
+
+    <div class="registro-btn-div">
+    <button class="registro-btn">
+    Registrar
+    </button>
+    </div>
+    <a class ="register-link" href="url">¿Ya tiene una cuenta?</a>
+</form>

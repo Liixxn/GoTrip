@@ -6,6 +6,7 @@ import { LoginComponent } from './views/login/login.component';
 import { RegistroComponent } from './views/registro/registro.component';
 import { TourListComponent } from './views/tour-list/tour-list.component';
 import { GuardadosComponent} from "./views/guardados/guardados.component";
+import { RegistroComponent } from './views/registro/registro.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
