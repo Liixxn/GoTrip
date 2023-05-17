@@ -1,0 +1,163 @@
+$gotrip-color: #1F5EFD;
+
+
+.seccion-buscador {
+  position: sticky;
+  margin-top: 20px;
+}
+
+
+.form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  background: rgba(8, 70, 231, 0.73);
+  border-radius: 10px;
+  text-indent: 33px;
+  color: white;
+}
+
+.form-control[type=text] {
+
+  width: 100%;
+  padding: 12px 35px;
+  box-sizing: border-box;
+  border: 2px solid green;
+}
+
+.span-eliminar {
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.fa-solid.fa-search {
+  position: absolute;
+  left: 10px;
+  color: #ffffff;
+}
+
+.span-eliminar {
+  position: absolute;
+  right: 10px;
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+
+.fa.fa-x {
+  color: #ffffff;
+}
+
+.fa.fa-x:hover {
+  cursor: pointer;
+}
+
+
+
+.contenedor-buscados {
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.btn-busqueda {
+  background: rgba(8, 70, 231, 0.42);
+  border-radius: 10px;
+  width: 80px;
+  height: 30px
+}
+
+
+
+
+
+.seccion-tarjetas {
+  margin-top: 25px;
+  height: 100%;
+}
+
+.seccion-tarjetas h3 {
+  text-align: center;
+}
+
+.scroll-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
+
+.card {
+  margin: 20px;
+  height: 300px;
+  transform: translateZ(0);
+  overflow: hidden;
+  position: relative;
+  --blur: 2px;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-body {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(var(--blur));
+
+}
+
+.bandera-pais img {
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  object-fit: cover;
+}
+
+.nombre-pais {
+  color: white;
+}
+
+.fa-star {
+  color: yellow;
+}
+
+

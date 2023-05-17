@@ -1,1 +1,91 @@
+<section class="seccion-buscador">
+  <div class="container">
+    <div class="row height d-flex justify-content-center align-items-center">
+      <div class="col-md-6">
+        <div class="form">
+          <i class="fa-solid fa-search"></i>
+          <input type="text" class="form-control form-input" placeholder="Busca tu lugar..." style="color: white;">
+          <span class="span-eliminar"><i class="fa fa-x"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contenedor-buscados">
+    <div class="container">
+      <!--<i class="fa-solid fa-search" style="color:black;"></i>-->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="lugarBuscado" *ngFor="let ciudad of ciudades">
+
+            <button class="btn-busqueda" role="button">{{ ciudad }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="seccion-tarjetas">
+  <h3>¡Conoce nuestros packs de viaje!</h3>
+    <div class="scroll-content">
+      <div class="card">
+        <img class="card-img-top" src="https://eldiariony.com/wp-content/uploads/sites/2/2021/04/nueva-york-shutterstock_57571180.jpg?quality=75&strip=all&w=1200"
+             alt="Foto de la estatua de La Libertad">
+        <div class="card-body">
+          <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png"></span>
+          <span class="nombre-pais">USA</span>
+          <span class="rating-pais">
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/16/a6/88/con-la-primavera-in-giappone.jpg?w=700&h=-1&s=1"
+             alt="Foto de una pagoda japonesa">
+        <div class="card-body">
+          <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"></span>
+          <span class="nombre-pais">Japón</span>
+          <span class="rating-pais">
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img class="card-img-top" src="https://images.ecestaticos.com/6lNdBlA5P-RyU-ZAW6a-1rkUeJY=/1x118:2271x1394/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdca%2Fe5e%2Fc23%2Fdcae5ec23094c61634c4abf5b395b05c.jpg"
+             alt="Foto de Gran Vía, Madrid">
+        <div class="card-body">
+          <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_España.svg/2560px-Bandera_de_España.svg.png"></span>
+          <span class="nombre-pais">España</span>
+          <span class="rating-pais">
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+
+<app-barra-navegacion></app-barra-navegacion>
+
+
 

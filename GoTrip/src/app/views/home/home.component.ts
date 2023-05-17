@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  ciudades = ["Kyoto", "Madrid", "Florida"];
+  countries = ["USA", "JAPÓN", "ESPAÑA"];
+
+
 }
