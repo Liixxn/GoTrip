@@ -7,15 +7,19 @@
   background-position: center;
 }
 
+.contenedor-atras {
+  position: absolute;
+  left: 16px;
+  top: 19px;
+}
 
 .contenedor-informacion {
   position: absolute;
   z-index: 1;
+  display: flex;
   width: 100%;
   height: 100%;
-  display: flex;
   align-items: flex-end;
-  border: 2px solid red;
 }
 
 .card-informacion {
@@ -25,20 +29,38 @@
   width: 100%;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.9);
-  border: 2px solid blue;
+  margin: 10px 20px;
+  overflow: hidden;
 }
 
 .scroll-imagenes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
-  border: 2px solid red;
+  height: 50px;
 }
 
-.scroll-imagenes img {
+
+.imagenes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.imagenes-container img {
   width: 46px;
   height: 46px;
+  margin: 0 5px;
   border-radius: 10px;
+}
+
+.imagenes-container img:hover,
+.imagenes-container img:active,
+.imagenes-container img:focus {
+  border: 1px solid #0029FF;
+}
+
+
+
+.descripcion-sitio {
+  text-align: center;
 }
