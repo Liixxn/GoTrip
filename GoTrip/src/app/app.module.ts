@@ -12,6 +12,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import { GuardadosComponent } from './views/guardados/guardados.component';
 import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegacion.component';
+import { CarruselComponent } from './views/carrusel/carrusel.component';
 
 
 
@@ -21,7 +22,8 @@ import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegac
     SplashScreenComponent,
     HomeComponent,
     GuardadosComponent,
-    BarraNavegacionComponent
+    BarraNavegacionComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
