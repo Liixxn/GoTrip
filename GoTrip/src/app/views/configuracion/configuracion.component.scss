@@ -1,0 +1,65 @@
+.atras {
+    text-align: left;
+}
+
+.ajustes-titulo {
+    font-family: 'Source Code Pro';
+    color: #0846E7;
+}
+
+.ajustesform {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.rectangulo {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    background: rgba(8, 70, 231, 0.42);
+    color: white;
+}
+
+.rectangulo-container {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+.cerrarSesion-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+  }
+  .cerrarSesion-btn img {
+    width: 20px; 
+    height: 20px; 
+  }
+.cerrarSesion-btn {
+    padding: 10px 20px;
+    background-color: rgba(8, 70, 231, 0.42);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+     align-self: flex-end;
+}
+
+.cerrarSesion-btn:hover {
+    background-color: #00688B;
+}
