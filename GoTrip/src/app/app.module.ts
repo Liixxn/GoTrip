@@ -7,6 +7,7 @@ import { SplashScreenComponent } from './views/splash-screen/splash-screen.compo
 import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
 import { RegistroComponent } from './views/registro/registro.component';
+import { TourListComponent } from './views/tour-list/tour-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RegistroComponent } from './views/registro/registro.component';
     SplashScreenComponent,
     HomeComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    TourListComponent
   ],
   imports: [
     BrowserModule,
