@@ -7,6 +7,7 @@ import { RegistroComponent } from './views/registro/registro.component';
 import { TourListComponent } from './views/tour-list/tour-list.component';
 import { GuardadosComponent} from "./views/guardados/guardados.component";
 import { RegistroComponent } from './views/registro/registro.component';
+import { PerfilComponent } from './views/perfil/perfil.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'guardados', component: GuardadosComponent}
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent},
-  { path: 'tour-list', component: TourListComponent }
+  { path: 'tour-list', component: TourListComponent },
+  { path: 'perfil', component: PerfilComponent}
 
 ];
 
