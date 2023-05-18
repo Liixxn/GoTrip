@@ -17,20 +17,49 @@
      </div>
 
    </div>
+   
    <div class ="content">
-
-    <div class="scrolling-wrapper">
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
+    <div class="tab-links-div">
+      <div class="tab-links">
+        <a class="tab-link" href="#scrollWrapper1" (click)="scrollToWrapper(1)">Guardados</a>
+        <a class="tab-link" href="#scrollWrapper2" (click)="scrollToWrapper(2)">Visitados</a>
+        <!-- Add more tab links as needed -->
+      </div>
     </div>
+  
+
+    <div class="scrolling-wrapper" id="scrollWrapper1" [ngClass]="{'hidden': activeWrapperIndex !== 1}">
+
+      <div class="card" style="background-image: url('assets/Kyoto.jpg')"> 
+      </div>
+      <div class="card" style="background-image: url('assets/Kyoto.jpg')">
+      </div>
+      <div class="card" style="background-image: url('assets/Kyoto.jpg')">
+      </div>
+      <div class="card" style="background-image: url('assets/Kyoto.jpg')">
+      </div>
+      <div class="card" style="background-image: url('assets/Kyoto.jpg')">
+      </div>
+
+    </div>
+
+    <div class="scrolling-wrapper" id="scrollWrapper2" [ngClass]="{'hidden': activeWrapperIndex !== 2}">
+
+      <div class="card" style="background-image: url('assets/Osaka.jpg')"> 
+      </div>
+      <div class="card" style="background-image: url('assets/Osaka.jpg')">
+      </div>
+      <div class="card" style="background-image: url('assets/Osaka.jpg')">
+      </div>
+      <div class="card" style="background-image: url('assets/Osaka.jpg')">
+      </div>
+      <div class="card" style="background-image: url('assets/Osaka.jpg')">
+      </div>
+
+    </div>
+
    </div>
+
    </div>
 
   </div>
