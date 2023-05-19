@@ -1,7 +1,7 @@
-
-  .container{
+.container{
   display: flex;
   height: 100vh;
+  width: 100%;
   margin: 0;
   padding: 0;
 
@@ -41,8 +41,9 @@
 
   .profile{
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   top:-50px;
-  left: 40%;
   height: 90px;
   width: 90px;
   border:3px solid #fff;
@@ -50,19 +51,66 @@
   overflow: hidden;
 
   }
-
+.profilename{
+  font-family: 'Viga', sans-serif;
+  margin-top: 42.6px;
+  text-align: center;
+}
 .content{
-  margin-top: 100px;
+  margin-bottom: 10%;
+  height: 100vh; /* Set the height of the container */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+.content::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Round the corners of the thumb */
+}
+
+.content::-webkit-scrollbar-track {
+  background-color: #eee; /* Set the color of the scrollbar track */
 }
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+}  
+.tab-links{
+font-family: 'Viga', sans-serif;
+text-decoration: none !important;
+margin-top: 10%; 
+margin-left: 20px !important;
+margin-bottom: 25px !important;
+}  
+
+.tab-link{
+  text-decoration: none;
+  margin-right: 5%;
   
+}
+.tab-link.active {
+  position: relative;
+}
+
+.tab-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 7px;
+  height: 7px;
+  background-color: #1F5EFD;
+  border-radius: 50%;
+}  
 .card {
   display: inline-block;
 }
-}
+
 
 .scrolling-wrapper-flexbox {
   display: flex;
@@ -73,23 +121,35 @@
     flex: 0 0 auto;
     margin-right: 3px;
   }
+  
+  &.hidden {
+    display: none;
+  }
 }
 
 .card {
   flex: 0 0 auto;
-  
   margin-left: 10px;
-  width: 150px;
-  height: 270px;
-  background: yellow;
+  border: 2px solid #000000;
+  width: 45%;
+  height: 100%;
+  background-size: cover;
 }
 
-.scrolling-wrapper, .scrolling-wrapper-flexbox {
+.scrolling-wrapper,
+.scrolling-wrapper-flexbox {
   height: 270px;
   margin-bottom: 20px;
   width: 100%;
   -webkit-overflow-scrolling: touch;
+
   &::-webkit-scrollbar {
     display: none;
   }
+}
+.scrolling-wrapper {
+  &.hidden {
+    display: none;
+  }
+
 }
