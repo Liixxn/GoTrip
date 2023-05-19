@@ -1,4 +1,4 @@
-<section class="imagen-fondo">
+<section class="imagen-fondo" id="background-imagen">
   <div class="contenedor-atras">
     <span class="atras">
         <img src="assets/atras.png" alt="boton_atras">
@@ -12,14 +12,7 @@
       </div>
       <div class="scroll-imagenes">
         <div class="imagenes-container">
-          <img src="https://jw-webmagazine.com/wp-content/uploads/2018/01/jw-5d156d25e9d9c6.32954435.jpeg">
-          <img src="https://jw-webmagazine.com/wp-content/uploads/2018/01/Cherry-Blossoms-at-Inokashira-Park.jpeg">
-          <img
-            src="https://blog.japanwondertravel.com/wp-content/uploads/2016/07/timo-volz-DGsqL2j028E-unsplash-1200x800.jpg">
-          <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Places-To-Visit-In-Tokyo-6_dec.jpg">
-          <img src="https://www.thetraveler.net/images/incontournables/japon-tokyo-shinjuku.jpg">
-          <img src="https://www.busytourist.com/wp-content/uploads/2019/06/Senso-ji-Temple.jpg.webp">
-
+          <img id="imagenes-ciudad" *ngFor="let image of images" [src]="image.path" (click)="cambiarFondo(image.path)">
         </div>
       </div>
       <div class="titulo-sitio">
