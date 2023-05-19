@@ -18,6 +18,11 @@ import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegac
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent } from './views/carrusel/carrusel.component';
 import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
+import { ConfiguracionAccesibilidadComponent } from './views/configuracion-accesibilidad/configuracion-accesibilidad.component';
+import { ConfiguracionCuentaComponent } from './views/configuracion-cuenta/configuracion-cuenta.component';
+import { ConfiguracionPrivacidadComponent } from './views/configuracion-privacidad/configuracion-privacidad.component';
+import { ConfiguracionNotificacionesComponent } from './views/configuracion-notificaciones/configuracion-notificaciones.component';
+import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { ConfiguracionComponent } from './views/configuracion/configuracion.comp
     RegistroComponent,
     PerfilComponent,
     CarruselComponent,
-    ConfiguracionComponent
+    ConfiguracionComponent,
+    ConfiguracionAccesibilidadComponent,
+    ConfiguracionCuentaComponent,
+    ConfiguracionPrivacidadComponent,
+    ConfiguracionNotificacionesComponent,
+    ConfiguracionAyudaComponent
   ],
   imports: [
     BrowserModule,

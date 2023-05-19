@@ -1,0 +1,26 @@
+<img class = "atras" src="assets/atras.png" alt="boton_atras">
+<form class="ajustesform">
+    <h1 class="ajustes-titulo">Accesibilidad</h1>
+    
+
+    
+    <div class="rectangulo-container">
+        
+        <div class="rectangulo">Modo Oscuro
+            
+        </div>
+        <div class="checkbox-container" [ngClass]="{'selected': isSelected}" (click)="isSelected = !isSelected">
+            <div class="checkbox"></div>
+          </div>
+          
+          
+          
+          
+
+
+        <div class="rectangulo">Aumento tamaño de la letra</div>
+        <div class="checkbox-container" [ngClass]="{'selected': isSelected2}" (click)="isSelected2 = !isSelected2">
+            <div class="checkbox"></div>
+          </div>
+    </div>
+    
