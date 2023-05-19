@@ -58,21 +58,21 @@
 }
 .content{
   margin-bottom: 10%;
-  height: 100vh; /* Set the height of the container */
-  overflow-y: scroll; /* Enable vertical scrolling */
-  scroll-behavior: smooth; /* Enable smooth scrolling */
+  height: 100vh; 
+  overflow-y: scroll; 
+  scroll-behavior: smooth; 
 }
 .content::-webkit-scrollbar {
-  width: 8px; /* Set the width of the scrollbar */
+  width: 8px; 
 }
 
 .content::-webkit-scrollbar-thumb {
-  background-color: #888; /* Set the color of the scrollbar thumb */
-  border-radius: 4px; /* Round the corners of the thumb */
+  background-color: #888; 
+  border-radius: 4px; 
 }
 
 .content::-webkit-scrollbar-track {
-  background-color: #eee; /* Set the color of the scrollbar track */
+  background-color: #eee; 
 }
 .scrolling-wrapper {
   overflow-x: scroll;
