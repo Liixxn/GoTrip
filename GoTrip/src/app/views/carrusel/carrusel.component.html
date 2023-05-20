@@ -12,15 +12,14 @@
       </div>
       <div class="scroll-imagenes">
         <div class="imagenes-container">
-          <img id="imagenes-ciudad" *ngFor="let image of images" [src]="image.path" (click)="cambiarFondo(image.path)">
+          <img id="imagenes-ciudad" *ngFor="let image of images" [src]="image" (click)="cambiarFondo(image)">
         </div>
       </div>
       <div class="titulo-sitio">
-        <h4>Tokyo Sky Tree</h4>
+        <h4 id="titulo">{{ tituloSitio[0] }}</h4>
       </div>
       <div class="descripcion-sitio">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua.</p>
+        <p id="descripcion">{{ descripcionSitio[0] }}</p>
       </div>
     </div>
   </div>

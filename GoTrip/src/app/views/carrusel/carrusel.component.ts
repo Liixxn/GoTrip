@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-carrusel',
@@ -7,23 +8,54 @@ import { Component } from '@angular/core';
 })
 export class CarruselComponent {
 
-  images = [
-    {path: 'https://jw-webmagazine.com/wp-content/uploads/2018/01/jw-5d156d25e9d9c6.32954435.jpeg'},
-    {path: 'https://jw-webmagazine.com/wp-content/uploads/2018/01/Cherry-Blossoms-at-Inokashira-Park.jpeg'},
-    {path: 'https://blog.japanwondertravel.com/wp-content/uploads/2016/07/timo-volz-DGsqL2j028E-unsplash-1200x800.jpg'},
-    {path: 'https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Places-To-Visit-In-Tokyo-6_dec.jpg'},
-    {path: 'https://www.thetraveler.net/images/incontournables/japon-tokyo-shinjuku.jpg'},
-    {path: 'https://www.busytourist.com/wp-content/uploads/2019/06/Senso-ji-Temple.jpg.webp'},
-  ]
+  listaCiudades:any = [];
+  images:any = [];
+  pais = "Japón";
+  tituloSitio:any = [];
+  descripcionSitio:any = [];
 
-  constructor() { }
+
+
+
+  constructor(private httpClient: HttpClient) { }
+
+
+  ngOnInit(): void {
+
+    this.httpClient.get("assets/files/japon.txt").subscribe((data: any) => {
+
+      for (let i = 0; i < data[this.pais].length; i++) {
+        this.listaCiudades.push(data[this.pais][i].lugaresAVisitar);
+      }
+
+      for (let i = 0; i < this.listaCiudades.length; i++) {
+        for (let j = 0; j < this.listaCiudades[i].length; j++) {
+          if (this.listaCiudades[i][j].imagenUrl != undefined) {
+            this.tituloSitio.push(this.listaCiudades[i][j].nombreLugar);
+            this.images.push(this.listaCiudades[i][j].imagenUrl);
+            this.descripcionSitio.push(this.listaCiudades[i][j].descripcion);
+          }
+
+        }
+      }
+      this.cambiarFondo(this.images[0]);
+    });
+
+  }
+
 
   public cambiarFondo(pathImagen: string) {
 
     let imagen = <HTMLElement>document.getElementById('background-imagen');
+    let titulo = <HTMLElement>document.getElementById('titulo');
+    let descripcion = <HTMLElement>document.getElementById('descripcion');
+    titulo.innerText = this.tituloSitio[this.images.indexOf(pathImagen)];
+    descripcion.innerText = this.descripcionSitio[this.images.indexOf(pathImagen)];
+
     imagen.style.backgroundImage = `url(${pathImagen})`;
     imagen.style.backgroundSize = 'cover';
     imagen.style.backgroundPosition = 'center';
+    imagen.style.backgroundRepeat = 'no-repeat';
 
   }
 

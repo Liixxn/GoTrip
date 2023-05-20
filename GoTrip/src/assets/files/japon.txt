@@ -1,0 +1,60 @@
+{
+  "Japón": [
+    {
+      "nombreCiudad": "Tokyo",
+      "precio": "178",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Tokyo Sky Tree",
+		  "imagenUrl": "https://www.thetrainline.com/cmsmedia/cms/7709/japan_2x.jpg",
+		  "descripcion": "Una torre muy alta situada en..."
+        },
+        {
+          "nombreLugar": "Universal Studios",
+		  "imagenUrl": "https://super-nintendo-world.usj.co.jp/assets/ogp/ogp_1200x630.jpg",
+		  "descripcion": "Un parque temático sobre Mario..."
+        }
+      ]
+    },
+    {
+      "nombreCiudad": "Nagoya",
+      "precio": "156",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Nagoya Street"
+        },
+        {
+          "nombreLugar": "Ghibli"
+        }
+      ]
+    }
+  ],
+  "EEUU": [
+    {
+      "nombreCiudad": "Florida",
+      "precio": "200",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Tokyo Sky Tree",
+		  "imagenUrl": "https://www.thetrainline.com/cmsmedia/cms/7709/japan_2x.jpg"
+        },
+        {
+          "nombreLugar": "Universal Studios",
+		  "imagenUrl": "https://super-nintendo-world.usj.co.jp/assets/ogp/ogp_1200x630.jpg"
+        }
+      ]
+    },
+    {
+      "nombreCiudad": "Las Vegas",
+      "precio": "260",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Nagoya Street"
+        },
+        {
+          "nombreLugar": "Ghibli"
+        }
+      ]
+    }
+  ]
+}
