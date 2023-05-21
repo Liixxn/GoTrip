@@ -1,0 +1,40 @@
+.atras {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.ajustes-titulo {
+    font-family: 'Source Code Pro';
+    color: black;
+    font-size: 40px;
+}
+
+.ajustesform {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.rectangulo {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    background: rgba(8, 70, 231, 0.42);
+    color: black;
+}
+
+.rectangulo-container {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
