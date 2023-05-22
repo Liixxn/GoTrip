@@ -1,0 +1,73 @@
+<section class="seccion-descripcion">
+  <div class="contenedor-atras">
+    <span class="atras">
+        <img src="assets/atras.png" alt="boton_atras">
+    </span>
+  </div>
+
+  <div class="contenedor-imagen">
+    <img src="https://learninglanguagesabroad.com/backend/img/lg/tokyo-japan-tokio-japon-1-qp7.jpg" alt="imagen">
+  </div>
+
+  <div class="contenedor-contenidoCiudad">
+    <div class="contenedor-infoPrincipal">
+      <div class="contenedor-titulo">
+        <h2>Tokio</h2>
+      </div>
+      <div class="contenedor-guardar">
+        <span class="visitado"><i class="fa-solid fa-location-dot" width="100%" height="100%"></i>Visitado</span>
+        <span class="guardar" role="button"><i class="fa-regular fa-bookmark" width="100%" height="100%"></i></span>
+      </div>
+    </div>
+    <span class="rating">
+        <span class="fa fa-star"></span>
+        <span class="valoracion">4.8</span>
+    </span>
+  </div>
+
+  <div class="contenedor-descripcion">
+    <h3>Descripción</h3>
+    <p>Descripción sobre el sitio que pulses.</p>
+  </div>
+
+  <div class="contenedor-sitios">
+    <h3>Incluye</h3>
+    <div class="scroll-imagenes">
+      <div class="imagenes-container">
+        <img id="imagenes-ciudad" *ngFor="let image of images" [src]="image">
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor-planificacion">
+    <h3>Planificación</h3>
+    <div class="scroll-planificacion">
+      <div class="planificacion-line">
+
+        <ul class="lista-dias">
+          <li>
+            <div class="time">09:00 AM</div>
+            <p>Evento 1</p>
+          </li>
+          <li>
+            <div class="time">12:00 AM</div>
+            <p>Evento 2</p>
+          </li>
+          <li>
+            <div class="time">14:00 PM</div>
+            <p>Evento 3</p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="seccion-reserva">
+  <div class="contenedor-precio">
+    <span>178€</span>
+  </div>
+  <button class="btn-reservar">Reservar</button>
+</section>
