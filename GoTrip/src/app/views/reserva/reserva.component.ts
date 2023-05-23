@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReservaComponent implements OnInit {
   fotoTarjetaSrc: string = 'assets/Mastercard.png'; // Valor predeterminado
+  reservaRealizada: boolean = false;
 
   ngOnInit() {
     // ...
@@ -15,4 +16,9 @@ export class ReservaComponent implements OnInit {
   cambiarImagenTarjeta(imgSrc: string) {
     this.fotoTarjetaSrc = imgSrc;
   }
+ 
+
+  mostrarReservaRealizada() {
+    this.reservaRealizada = true;
+  } 
 }

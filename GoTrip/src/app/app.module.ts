@@ -19,6 +19,7 @@ import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent } from './views/carrusel/carrusel.component';
 import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
 import { ReservaComponent } from './views/reserva/reserva.component';
+import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ReservaComponent } from './views/reserva/reserva.component';
     PerfilComponent,
     CarruselComponent,
     ConfiguracionComponent,
-    ReservaComponent
+    ReservaComponent,
+    ReservaRealizadaComponent
   ],
   imports: [
     BrowserModule,

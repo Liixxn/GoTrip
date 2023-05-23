@@ -10,6 +10,7 @@ import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent} from "./views/carrusel/carrusel.component";
 import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
 import { ReservaComponent } from './views/reserva/reserva.component';
+import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -20,8 +21,9 @@ const routes: Routes = [
   { path: 'tour-list', component: TourListComponent },
   { path: 'perfil', component: PerfilComponent},
   { path: 'carrusel', component: CarruselComponent},
-  {path: 'configuracion', component: ConfiguracionComponent},
-  { path: 'reserva', component: ReservaComponent}
+  { path: 'configuracion', component: ConfiguracionComponent},
+  { path: 'reserva', component: ReservaComponent},
+  { path: 'reserva-realizada', component: ReservaRealizadaComponent}
 ];
 
 @NgModule({

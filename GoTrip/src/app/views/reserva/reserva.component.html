@@ -7,17 +7,20 @@
 <form class="Reservaform">
     <div class="titulo"> Información del pago</div>
 
+    <app-reserva-realizada *ngIf="reservaRealizada"></app-reserva-realizada>
+
   <div class="subtitulos">
     <label>Destino: </label>     
     <span> Tokyo, Japón </span>
   </div>
+  
   <div class = "subtitulos">
     <label>Precio: </label>
     <span> 179 € </span>
     </div>
 
     
-
+   
 
     <div class="tituloTarjeta"><label>Método de pago: </label> </div>
     <div class="metodoPago">
@@ -55,8 +58,8 @@
 
  </div>
 <div class="reservar-btn-div">
-    <button class="reservar-btn">
-        <label>Reservar </label>
+    <button class="reservar-btn"  (click)="mostrarReservaRealizada()">
+        <label>Reservar</label>
     </button>
 </div>  
 </form>
