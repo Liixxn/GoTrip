@@ -109,6 +109,8 @@ margin-bottom: 25px !important;
 }  
 .card {
   display: inline-block;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -152,4 +154,24 @@ margin-bottom: 25px !important;
     display: none;
   }
 
+}
+
+
+.rating-bar {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+  /* Add additional styles as needed */
+}
+
+.rating-bar .star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+}
+
+.rating-bar .star.filled {
+  background-color: orange;
 }
