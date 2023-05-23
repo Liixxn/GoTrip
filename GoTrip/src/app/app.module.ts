@@ -18,6 +18,7 @@ import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegac
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent } from './views/carrusel/carrusel.component';
 import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
+import { ReservaComponent } from './views/reserva/reserva.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ConfiguracionComponent } from './views/configuracion/configuracion.comp
     RegistroComponent,
     PerfilComponent,
     CarruselComponent,
-    ConfiguracionComponent
+    ConfiguracionComponent,
+    ReservaComponent
   ],
   imports: [
     BrowserModule,
