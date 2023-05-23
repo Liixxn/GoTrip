@@ -1,14 +1,11 @@
-<section class="imagen-fondo" id="background-imagen">
-  <div class="contenedor-atras">
-    <span class="atras">
-        <img src="assets/atras.png" alt="boton_atras">
-    </span>
-  </div>
 
+
+
+<section class="imagen-fondo" id="background-imagen">
   <div class="contenedor-informacion">
     <div class="card-informacion">
       <div class="titulo-pais">
-        <h3>Tokyo</h3>
+        <h3>{{ pais }}</h3>
       </div>
       <div class="scroll-imagenes">
         <div class="imagenes-container">
@@ -27,3 +24,9 @@
 
 </section>
 
+
+<div class="contenedor-atras">
+    <span class="atras" role="button" (click)="volverDescripcion(pais, ciudad)">
+        <img src="assets/atras.png" alt="boton_atras">
+    </span>
+</div>

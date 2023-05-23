@@ -1,45 +1,40 @@
 <section class="seccion-descripcion">
   <div class="contenedor-atras">
-    <span class="atras">
+    <span class="atras" (click)="volverTourList(pais)">
         <img src="assets/atras.png" alt="boton_atras">
     </span>
   </div>
 
   <div class="contenedor-imagen">
-    <img src="https://learninglanguagesabroad.com/backend/img/lg/tokyo-japan-tokio-japon-1-qp7.jpg" alt="imagen">
+    <img id="imagen-portada" [src]="imagenPortadaSitio" alt="imagenPortada">
   </div>
 
   <div class="contenedor-contenidoCiudad">
     <div class="contenedor-infoPrincipal">
       <div class="contenedor-titulo">
-        <h2>Tokio</h2>
+        <h2>{{ ciudad }}</h2>
       </div>
       <div class="contenedor-guardar">
         <span class="visitado"><i class="fa-solid fa-location-dot" width="100%" height="100%"></i>Visitado</span>
-        <span class="guardar" role="button"><i class="fa-regular fa-bookmark" width="100%" height="100%"></i></span>
+        <span class="guardar" role="button"><i id="icon-guardar" class="fa-regular fa-bookmark" width="100%" height="100%"></i></span>
       </div>
     </div>
     <span class="rating">
         <span class="fa fa-star"></span>
-        <span class="valoracion">4.8</span>
+        <span class="valoracion">{{rating}}</span>
     </span>
   </div>
 
   <div class="contenedor-descripcion">
     <h3>Descripción</h3>
-    <p>Descripción sobre el sitio que pulses.
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum."</p>
+    <p>{{descripcionSitio}}</p>
   </div>
 
   <div class="contenedor-sitios">
     <h3>Incluye</h3>
     <div class="scroll-imagenes">
       <div class="imagenes-container">
-        <img id="imagenes-ciudad" *ngFor="let image of images" [src]="image">
+        <img id="imagenes-ciudad" (click)="irCarrusel(pais, ciudad)" *ngFor="let image of images" [src]="image">
       </div>
     </div>
   </div>
@@ -49,28 +44,11 @@
     <div class="scroll-planificacion">
       <div class="planificacion-line">
 
-        <ul class="lista-dias">
+        <ul class="lista-dias" *ngFor="let indice of numeroSitios">
           <li>
-            <div class="time">09:00 AM</div>
-            <p>Evento 1</p>
+            <div class="time">{{planificacionDias[indice]}}</div>
+            <p>{{planificacionNombres[indice]}}</p>
           </li>
-          <li>
-            <div class="time">12:00 AM</div>
-            <p>Evento 2</p>
-          </li>
-          <li>
-            <div class="time">14:00 PM</div>
-            <p>Evento 3</p>
-          </li>
-          <li>
-            <div class="time">14:00 PM</div>
-            <p>Evento 3</p>
-          </li>
-          <li>
-            <div class="time">14:00 PM</div>
-            <p>Evento 3</p>
-          </li>
-
         </ul>
       </div>
     </div>
@@ -81,7 +59,7 @@
 <section class="seccion-reserva">
   <div class="contenedor-reserva">
   <div class="contenedor-precio">
-    <span>178€</span>
+    <span>{{precioSitio}}</span>
   </div>
   <button class="btn-reservar">Reservar</button>
   </div>

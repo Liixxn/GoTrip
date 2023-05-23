@@ -17,11 +17,12 @@ const routes: Routes = [
   { path: 'guardados', component: GuardadosComponent},
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent},
-  { path: 'tour-list', component: TourListComponent },
+  { path: 'tour-list/:pais', component: TourListComponent },
   { path: 'perfil', component: PerfilComponent},
   { path: 'carrusel', component: CarruselComponent},
+  { path: 'carrusel/:pais/:ciudad', component: CarruselComponent },
   {path: 'configuracion', component: ConfiguracionComponent},
-  {path: 'descripcion', component: DescripcionComponent}
+  {path: 'descripcion/:pais/:ciudad', component: DescripcionComponent}
 
 ];
 

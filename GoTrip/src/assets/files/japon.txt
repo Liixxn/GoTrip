@@ -2,58 +2,194 @@
   "Japón": [
     {
       "nombreCiudad": "Tokyo",
-      "precio": "178",
+      "precio": "178€",
+	  "dias": "6 días",
+	  "descripcion": "rgtgt4ht4",
+	  "imagenPortada": "https://learninglanguagesabroad.com/backend/img/lg/tokyo-japan-tokio-japon-1-qp7.jpg",
+	  "guardado": "true",
+	  "visitado": "true",
+	  "valoracion": "4.8",
       "lugaresAVisitar": [
         {
           "nombreLugar": "Tokyo Sky Tree",
-		  "imagenUrl": "https://www.thetrainline.com/cmsmedia/cms/7709/japan_2x.jpg",
-		  "descripcion": "Una torre muy alta situada en..."
+		  "imagenUrl": "https://tokyotourists.com/wp-content/uploads/2021/12/Tokyo-Skytree-Christmas-Market-2021.jpg",
+		  "descripcion": "Una torre muy alta situada en...",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Templo Sensoji",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Cloudy_Sensō-ji.jpg",
+		  "descripcion": "Uno de los templos más antiguos...",
+		  "dia": "Día 1 - 11:00 AM"
         },
         {
           "nombreLugar": "Universal Studios",
 		  "imagenUrl": "https://super-nintendo-world.usj.co.jp/assets/ogp/ogp_1200x630.jpg",
-		  "descripcion": "Un parque temático sobre Mario..."
-        }
+		  "descripcion": "Un parque temático sobre Mario...",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Akihabara",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Akihabara_Electric_Town_9999_281.jpg",
+		  "descripcion": "Un barrio en Japón...",
+		  "dia": "Día 2 - 20:30 PM"
+		},
+		{
+		"nombreLugar": "Shibuya",
+		  "imagenUrl": "https://www.gotokyo.org/es/destinations/western-tokyo/shibuya/images/main.jpg",
+		  "descripcion": "El barrio más conocido de todo Japón..",
+		  "dia": "Día 3 - 11:00 AM"
+		},
+		{
+		"nombreLugar": "Tokyo Disney Resort",
+		  "imagenUrl": "https://res-4.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1645708829/chiba/H_00336_001",
+		  "descripcion": "Una de las atracciones Disney",
+		  "dia": "Día 4 - 10:00 AM"
+		},
+		{
+		"nombreLugar": "Teatro Kabuki-za",
+		  "imagenUrl": "https://www.gotokyo.org/en/spot/29/images/29_0113_3_1400x1100.jpg",
+		  "descripcion": "El Kabuki-za es el principal teatro de Tokio, donde se celebran representaciones desde 1889.",
+		  "dia": "Día 5 - 18:00 PM"
+		}
       ]
     },
-    {
+	{
+      "nombreCiudad": "Kioto",
+      "precio": "165€",
+	  "dias": "4 días",
+	  "descripcion": "rgtgt4ht4",
+	  "imagenPortada": "https://www.tripsavvy.com/thmb/IuCwF2U8-I2nxlvkPR81ABsgaEs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kyoto-3a749c7099fd44cb9fe065e7707f82ac.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.6",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Santuario Fushimi Inari Taisha",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/KyotoFushimiInariLarge.jpg",
+		  "descripcion": "Un santurario",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Kinkakuji o Pabellón Dorado",
+		  "imagenUrl": "https://images.pexels.com/photos/5843571/pexels-photo-5843571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		  "descripcion": "Uno de los templos más antiguos...",
+		  "dia": "Día 1 - 17:00 PM"
+        },
+        {
+          "nombreLugar": "Higashiyama",
+		  "imagenUrl": "https://www.agoda.com/wp-content/uploads/2020/02/Higashiyama-Higashiyama-district-with-sakura.jpg",
+		  "descripcion": "Una calle llena de casas antiguas",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Parque Maruyama",
+		  "imagenUrl": "https://www.nippon.com/es/ncommon/contents/guide-to-japan/129119/129119.jpg",
+		  "descripcion": "Un parque lleno de cerezos",
+		  "dia": "Día 2 - 21:00 PM"
+		},
+		{
+		"nombreLugar": "Bosque de Bambú de Arashiyama",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/2021_Sagano_Bamboo_forest_in_Arashiyama%2C_Kyoto%2C_Japan.jpg",
+		  "descripcion": "Un bosque lleno de bambú.",
+		  "dia": "Día 3 - 10:00 AM"
+		},
+		{
+		"nombreLugar": "Mercado Nishiki",
+		  "imagenUrl": "https://res-2.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1648006915/kyoto/H_00480_001",
+		  "descripcion": "Un mercado nocturno",
+		  "dia": "Día 3 - 19:00 AM"
+		}
+      ]
+    },
+	{
       "nombreCiudad": "Nagoya",
-      "precio": "156",
+      "precio": "145€",
+	  "dias": "5 días",
+	  "descripcion": "rgtgt4ht4",
+	  "imagenPortada": "https://elviajerofeliz.com/wp-content/uploads/2020/05/Que-ver-en-Nagoya-Lugares-Imprescindibles.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.2",
       "lugaresAVisitar": [
         {
-          "nombreLugar": "Nagoya Street"
+          "nombreLugar": "Castillo de Nagoya",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Nagoya_Castle%28Larger%29.jpg",
+		  "descripcion": "Un castillo antiguo",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Torre de la Televisión de Nagoya",
+		  "imagenUrl": "https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1645706712/aichi/M_00427_004",
+		  "descripcion": "La primera torre de televisión de Japón en 1954.",
+		  "dia": "Día 1 - 18:00 PM"
         },
         {
-          "nombreLugar": "Ghibli"
-        }
-      ]
-    }
-  ],
-  "EEUU": [
-    {
-      "nombreCiudad": "Florida",
-      "precio": "200",
-      "lugaresAVisitar": [
-        {
-          "nombreLugar": "Tokyo Sky Tree",
-		  "imagenUrl": "https://www.thetrainline.com/cmsmedia/cms/7709/japan_2x.jpg"
+          "nombreLugar": "SCMaglev and Railway Park",
+		  "imagenUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bc161e38834019.5771430099a91.jpg",
+		  "descripcion": "Museo ferroviario",
+		  "dia": "Día 2 - 10:30 AM"
         },
-        {
-          "nombreLugar": "Universal Studios",
-		  "imagenUrl": "https://super-nintendo-world.usj.co.jp/assets/ogp/ogp_1200x630.jpg"
-        }
+		{
+		"nombreLugar": "Tokugawa Park",
+		  "imagenUrl": "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/08/Nagoya-Tokugawa-Garden-.jpg",
+		  "descripcion": "Un parque lleno de agua",
+		  "dia": "Día 3 - 11:00 AM"
+		},
+		{
+		"nombreLugar": "Museo de Ciencias de Nagoya",
+		  "imagenUrl": "https://mediaim.expedia.com/destination/3/37eb280d82763c20719321a0253cb05d.jpg",
+		  "descripcion": "Museo de Ciencias de Nagoya",
+		  "dia": "Día 4 - 10:00 AM"
+		}
       ]
     },
-    {
-      "nombreCiudad": "Las Vegas",
-      "precio": "260",
+	{
+      "nombreCiudad": "Osaka",
+      "precio": "185€",
+	  "dias": "6 días",
+	  "descripcion": "rgtgt4ht4",
+	  "imagenPortada": "https://img.itinari.com/pages/images/original/0afe2310-ecf1-42ae-ba94-c6d9276d858b-istock-522473665.jpg?ch=DPR&dpr=1&w=1600&s=6b2e0ee23c973a0d07e3e44fb4bc1251",
+	  "guardado": "true",
+	  "visitado": "false",
+	  "valoracion": "4.7",
       "lugaresAVisitar": [
         {
-          "nombreLugar": "Nagoya Street"
+          "nombreLugar": "Dōtonbori",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg",
+		  "descripcion": "Un castillo antiguo",
+		  "dia": "Día 2 - 20:00 PM"
+        },
+		{
+          "nombreLugar": "Acuario de Osaka",
+		  "imagenUrl": "https://res-3.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1648205341/osaka/H_00496_001",
+		  "descripcion": "La primera torre de televisión de Japón en 1954.",
+		  "dia": "Día 3 - 11:00 AM"
         },
         {
-          "nombreLugar": "Ghibli"
-        }
+          "nombreLugar": "Kuchu Teien Observatory",
+		  "imagenUrl": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Umeda_Sky_Building.jpg",
+		  "descripcion": "Museo ferroviario",
+		  "dia": "Día 3 - 17:30 PM"
+        },
+		{
+		"nombreLugar": "Calle comercial Shinsekai Hondori",
+		  "imagenUrl": "https://place.matcha-jp.com/resize/1280x2000/2022/10/05-21-22-23-d2f36d1015f5662896859c51edab9af5.webp?w=656",
+		  "descripcion": "Un parque lleno de agua",
+		  "dia": "Día 4 - 18:00 PM"
+		},
+		{
+		"nombreLugar": "Sumiyoshi Taisha",
+		  "imagenUrl": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/sumiyoshi-taisha-shrine-2_optimized.jpg",
+		  "descripcion": "Museo de Ciencias de Nagoya",
+		  "dia": "Día 5 - 10:30 AM"
+		},
+		{
+		"nombreLugar": "Tempozan Giant Ferris Wheel",
+		  "imagenUrl": "https://www.placesandfoods.com/wp-content/uploads/2020/11/tempozan-giant-ferris-wheel.jpg",
+		  "descripcion": "Museo de Ciencias de Nagoya",
+		  "dia": "Día 5 - 20:00 PM"
+		}
       ]
     }
   ]
