@@ -17,7 +17,6 @@ import { ConfiguracionPrivacidadComponent } from './views/configuracion-privacid
 import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
 import { ReservaComponent } from './views/reserva/reserva.component';
 import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
-import { CarruselComponent } from "./views/carrusel/carrusel.component";
 import { DescripcionComponent} from "./views/descripcion/descripcion.component";
 
 

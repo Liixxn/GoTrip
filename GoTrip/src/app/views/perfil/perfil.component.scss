@@ -174,15 +174,19 @@ margin-bottom: 25px !important;
 }
 
 .rating-bar .star {
+  position: relative;
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url('/assets/estrella.png');
-  z-index: 2;
+  background-image: url('/assets/enviar.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .rating-bar .star.filled {
   background-image: url('/assets/estrella.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  z-index: 2;
+  z-index: 1;
 }

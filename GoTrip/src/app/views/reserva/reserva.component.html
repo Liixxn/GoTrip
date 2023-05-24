@@ -10,26 +10,26 @@
     <app-reserva-realizada *ngIf="reservaRealizada"></app-reserva-realizada>
 
   <div class="subtitulos">
-    <label>Destino: </label>     
+    <label>Destino: </label>
     <span> Tokyo, Japón </span>
   </div>
-  
+
   <div class = "subtitulos">
     <label>Precio: </label>
     <span> 179 € </span>
     </div>
 
-    
-   
+
+
 
     <div class="tituloTarjeta"><label>Método de pago: </label> </div>
     <div class="metodoPago">
         <button class="tarjeta-btn" data-img="assets/Visa.png" (click)="cambiarImagenTarjeta('assets/Visa.png')">
             <img class="imagenTarjeta" src="assets/Visa.png" alt="Visa">
           </button>
-          
-          <button class="tarjeta-btn" data-img="assets/Mastercard.png" (click)="cambiarImagenTarjeta('assets/Mastercard.png')">
-            <img class="imagenTarjeta" src="assets/Mastercard.png" alt="Mastercard">
+
+          <button class="tarjeta-btn" data-img="assets/mastercard.png" (click)="cambiarImagenTarjeta('assets/mastercard.png')">
+            <img class="imagenTarjeta" src="assets/mastercard.png" alt="Mastercard">
           </button>
 
         <button class="tarjeta-btn" data-img="assets/Paypal.png" (click)="cambiarImagenTarjeta('assets/Paypal.png')">
@@ -41,17 +41,17 @@
 </div>
 <br>
   <div class="inputdiv">
-    <label>Número de tarjeta: </label><br>  
+    <label>Número de tarjeta: </label><br>
     <div class="input-with-icon">
       <input class="campoinput" type="text" name="tarjeta" placeholder="0123-4567-8900-0000">
       <img class="fotoTarjeta" [src]="fotoTarjetaSrc" alt="tarjeta">
     </div>
-  
+
   <div class="inputdiv">
-    <label>Expiración y CCV: </label>  
+    <label>Expiración y CCV: </label>
     <div class="input-with-icon">
       <input class="campoinput2" type="text" name="tarjeta" placeholder="22/10/27">
-      
+
       <input class="campoinput2" type="text" name="tarjeta" placeholder="567">
     </div>
   </div>
@@ -61,6 +61,6 @@
     <button class="reservar-btn"  (click)="mostrarReservaRealizada()">
         <label>Reservar</label>
     </button>
-</div>  
+</div>
 </form>
 </div>

@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PerfilComponent implements OnInit {
   activeWrapperIndex = 1; // Set the default active wrapper index
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
@@ -16,7 +17,7 @@ export class PerfilComponent implements OnInit {
   scrollToWrapper(index: number) {
     const targetWrapper = document.querySelector(`#scrollWrapper${index}`);
     if (targetWrapper) {
-      targetWrapper.scrollIntoView({ behavior: 'smooth' });
+      targetWrapper.scrollIntoView({behavior: 'smooth'});
 
       const scrollWrappers = document.querySelectorAll('.scrolling-wrapper');
       scrollWrappers.forEach((wrapper, wrapperIndex) => {
