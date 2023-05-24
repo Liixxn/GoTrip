@@ -15,6 +15,8 @@ import { ConfiguracionCuentaComponent } from './views/configuracion-cuenta/confi
 import { ConfiguracionNotificacionesComponent } from './views/configuracion-notificaciones/configuracion-notificaciones.component';
 import { ConfiguracionPrivacidadComponent } from './views/configuracion-privacidad/configuracion-privacidad.component';
 import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
+import { ReservaComponent } from './views/reserva/reserva.component';
+import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
 
 
 const routes: Routes = [
@@ -32,7 +34,9 @@ const routes: Routes = [
   {path: 'configuracion-cuenta', component: ConfiguracionCuentaComponent},
   {path: 'configuracion-notificaciones', component: ConfiguracionNotificacionesComponent},
   {path: 'configuracion-privacidad', component: ConfiguracionPrivacidadComponent},
-  {path: 'configuracion-ayuda', component: ConfiguracionAyudaComponent}
+  {path: 'configuracion-ayuda', component: ConfiguracionAyudaComponent},
+  { path: 'reserva', component: ReservaComponent},
+  { path: 'reserva-realizada', component: ReservaRealizadaComponent}
 
 ];
 

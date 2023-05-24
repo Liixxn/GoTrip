@@ -24,6 +24,8 @@ import { ConfiguracionCuentaComponent } from './views/configuracion-cuenta/confi
 import { ConfiguracionPrivacidadComponent } from './views/configuracion-privacidad/configuracion-privacidad.component';
 import { ConfiguracionNotificacionesComponent } from './views/configuracion-notificaciones/configuracion-notificaciones.component';
 import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
+import { ReservaComponent } from './views/reserva/reserva.component';
+import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configu
     ConfiguracionCuentaComponent,
     ConfiguracionPrivacidadComponent,
     ConfiguracionNotificacionesComponent,
-    ConfiguracionAyudaComponent
+    ConfiguracionAyudaComponent,
+    ReservaComponent,
+    ReservaRealizadaComponent
   ],
   imports: [
     BrowserModule,

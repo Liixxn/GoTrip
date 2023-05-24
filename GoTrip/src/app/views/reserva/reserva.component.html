@@ -1,0 +1,66 @@
+
+<div class="body">
+    <div class="banner-container">
+       <img class="banner" src="/assets/BannerJapon.jpg" alt="BannerJapon"  />
+       <img src="/assets/atras.png" alt="atras" class="atras"/>
+    </div>
+<form class="Reservaform">
+    <div class="titulo"> Información del pago</div>
+
+    <app-reserva-realizada *ngIf="reservaRealizada"></app-reserva-realizada>
+
+  <div class="subtitulos">
+    <label>Destino: </label>     
+    <span> Tokyo, Japón </span>
+  </div>
+  
+  <div class = "subtitulos">
+    <label>Precio: </label>
+    <span> 179 € </span>
+    </div>
+
+    
+   
+
+    <div class="tituloTarjeta"><label>Método de pago: </label> </div>
+    <div class="metodoPago">
+        <button class="tarjeta-btn" data-img="assets/Visa.png" (click)="cambiarImagenTarjeta('assets/Visa.png')">
+            <img class="imagenTarjeta" src="assets/Visa.png" alt="Visa">
+          </button>
+          
+          <button class="tarjeta-btn" data-img="assets/Mastercard.png" (click)="cambiarImagenTarjeta('assets/Mastercard.png')">
+            <img class="imagenTarjeta" src="assets/Mastercard.png" alt="Mastercard">
+          </button>
+
+        <button class="tarjeta-btn" data-img="assets/Paypal.png" (click)="cambiarImagenTarjeta('assets/Paypal.png')">
+            <img class = "imagenTarjeta"src="assets/Paypal.png" alt="Paypal">
+        </button>
+        <button class="tarjeta-btn" data-img="assets/Googlepay.png" (click)="cambiarImagenTarjeta('assets/Googlepay.png')">
+            <img class = "imagenTarjeta"src="assets/Googlepay.png" alt="Googlepay">
+        </button>
+</div>
+<br>
+  <div class="inputdiv">
+    <label>Número de tarjeta: </label><br>  
+    <div class="input-with-icon">
+      <input class="campoinput" type="text" name="tarjeta" placeholder="0123-4567-8900-0000">
+      <img class="fotoTarjeta" [src]="fotoTarjetaSrc" alt="tarjeta">
+    </div>
+  
+  <div class="inputdiv">
+    <label>Expiración y CCV: </label>  
+    <div class="input-with-icon">
+      <input class="campoinput2" type="text" name="tarjeta" placeholder="22/10/27">
+      
+      <input class="campoinput2" type="text" name="tarjeta" placeholder="567">
+    </div>
+  </div>
+
+ </div>
+<div class="reservar-btn-div">
+    <button class="reservar-btn"  (click)="mostrarReservaRealizada()">
+        <label>Reservar</label>
+    </button>
+</div>  
+</form>
+</div>
