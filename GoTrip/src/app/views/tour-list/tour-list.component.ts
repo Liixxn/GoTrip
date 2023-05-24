@@ -16,7 +16,8 @@ export class TourListComponent {
   constructor(private httpClient: HttpClient, private router: Router, private activatedRoute: ActivatedRoute) {
   }
 
-
+  ngOnInit() {
+  }
 
 
   public cargarPais() {

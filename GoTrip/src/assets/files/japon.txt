@@ -4,7 +4,7 @@
       "nombreCiudad": "Tokyo",
       "precio": "178€",
 	  "dias": "6 días",
-	  "descripcion": "rgtgt4ht4",
+	  "descripcion": "Capital de Japón. Es actualmente la ciudad más poblada del mundo, la superficie de los 23 barrios de Tokio es de unos 628 Km2, y su población se estima en alrededor de 9,6 millones de personas. Visita Tokyo por su sorprendente cultura, por su animada vida nocturna, por probar su exótica gastronomía entre otros.",
 	  "imagenPortada": "https://learninglanguagesabroad.com/backend/img/lg/tokyo-japan-tokio-japon-1-qp7.jpg",
 	  "guardado": "true",
 	  "visitado": "true",
@@ -13,43 +13,43 @@
         {
           "nombreLugar": "Tokyo Sky Tree",
 		  "imagenUrl": "https://tokyotourists.com/wp-content/uploads/2021/12/Tokyo-Skytree-Christmas-Market-2021.jpg",
-		  "descripcion": "Una torre muy alta situada en...",
+		  "descripcion": "Es una torre de radiodifusión, restaurante y mirador. Es la estructura artificial más alta en Japón desde 2010.",
 		  "dia": "Día 1 - 10:00 AM"
         },
 		{
           "nombreLugar": "Templo Sensoji",
 		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Cloudy_Sensō-ji.jpg",
-		  "descripcion": "Uno de los templos más antiguos...",
+		  "descripcion": "Es un templo budista localizado en Asakusa, Tokio, Japón. Es el templo más antiguo de Tokio y uno de los más importantes.",
 		  "dia": "Día 1 - 11:00 AM"
         },
         {
           "nombreLugar": "Universal Studios",
 		  "imagenUrl": "https://super-nintendo-world.usj.co.jp/assets/ogp/ogp_1200x630.jpg",
-		  "descripcion": "Un parque temático sobre Mario...",
+		  "descripcion": "Es uno de los cuatro parques temáticos Universal Studios.",
 		  "dia": "Día 2 - 10:30 AM"
         },
 		{
 		"nombreLugar": "Akihabara",
 		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Akihabara_Electric_Town_9999_281.jpg",
-		  "descripcion": "Un barrio en Japón...",
+		  "descripcion": "Es una zona comercial importante de Tokio, la mayoría de los comercios de allí se dedican a la venta de productos electrónicos, computadoras, accesorios y gadgets; además de entretenimiento audiovisual, como anime, manga y videojuegos",
 		  "dia": "Día 2 - 20:30 PM"
 		},
 		{
 		"nombreLugar": "Shibuya",
 		  "imagenUrl": "https://www.gotokyo.org/es/destinations/western-tokyo/shibuya/images/main.jpg",
-		  "descripcion": "El barrio más conocido de todo Japón..",
+		  "descripcion": "Es un barrio especial de la Metrópolis de Tokio. Principalmente comercial y de entretenimiento, Shibuya ha conseguido una gran popularidad entre los jóvenes en los últimos 49 años. En Shibuya se encuentran varios centros comerciales de moda.",
 		  "dia": "Día 3 - 11:00 AM"
 		},
 		{
 		"nombreLugar": "Tokyo Disney Resort",
 		  "imagenUrl": "https://res-4.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1645708829/chiba/H_00336_001",
-		  "descripcion": "Una de las atracciones Disney",
+		  "descripcion": "Es un parque temático y un complejo turístico. Se convirtió en un resort (Predio de vacaciones) con dos parques temáticos, siete hoteles (dos de ellos pertenecientes a Disneyland), y un paseo de compras.",
 		  "dia": "Día 4 - 10:00 AM"
 		},
 		{
 		"nombreLugar": "Teatro Kabuki-za",
 		  "imagenUrl": "https://www.gotokyo.org/en/spot/29/images/29_0113_3_1400x1100.jpg",
-		  "descripcion": "El Kabuki-za es el principal teatro de Tokio, donde se celebran representaciones desde 1889.",
+		  "descripcion": "Es el principal teatro de Kabuki de Tokio.",
 		  "dia": "Día 5 - 18:00 PM"
 		}
       ]
@@ -58,7 +58,7 @@
       "nombreCiudad": "Kioto",
       "precio": "165€",
 	  "dias": "4 días",
-	  "descripcion": "rgtgt4ht4",
+	  "descripcion": "Es famosa por sus numerosos templos budistas clásicos y sus jardines, palacios imperiales, santuarios Shinto y casas de madera tradicionales.",
 	  "imagenPortada": "https://www.tripsavvy.com/thmb/IuCwF2U8-I2nxlvkPR81ABsgaEs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kyoto-3a749c7099fd44cb9fe065e7707f82ac.jpg",
 	  "guardado": "false",
 	  "visitado": "false",
@@ -67,37 +67,37 @@
         {
           "nombreLugar": "Santuario Fushimi Inari Taisha",
 		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/KyotoFushimiInariLarge.jpg",
-		  "descripcion": "Un santurario",
+		  "descripcion": "Es el principal santuario sintoísta, dedicado al espíritu de Inari. El santuario se encuentra situado en la base de una montaña también conocida como Inari, que incluye varios senderos para llegar a otros santuarios más pequeños.",
 		  "dia": "Día 1 - 10:00 AM"
         },
 		{
           "nombreLugar": "Kinkakuji o Pabellón Dorado",
 		  "imagenUrl": "https://images.pexels.com/photos/5843571/pexels-photo-5843571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		  "descripcion": "Uno de los templos más antiguos...",
+		  "descripcion": "Templo del jardín de los ciervos, fue construido originalmente en 1397 como villa de descanso. Forma parte del conjunto de Monumentos históricos de la antigua Kioto",
 		  "dia": "Día 1 - 17:00 PM"
         },
         {
           "nombreLugar": "Higashiyama",
 		  "imagenUrl": "https://www.agoda.com/wp-content/uploads/2020/02/Higashiyama-Higashiyama-district-with-sakura.jpg",
-		  "descripcion": "Una calle llena de casas antiguas",
+		  "descripcion": "Higashiyama es uno de los once distritos de la ciudad de Kioto. Se trata de una de las pocas zonas que se conservan como antaño, no sólo en esta ciudad, sino en todo Japón.",
 		  "dia": "Día 2 - 10:30 AM"
         },
 		{
 		"nombreLugar": "Parque Maruyama",
 		  "imagenUrl": "https://www.nippon.com/es/ncommon/contents/guide-to-japan/129119/129119.jpg",
-		  "descripcion": "Un parque lleno de cerezos",
+		  "descripcion": "Es un parque en Kioto, Japón. Se destaca como el centro principal para ver los cerezos en flor.",
 		  "dia": "Día 2 - 21:00 PM"
 		},
 		{
 		"nombreLugar": "Bosque de Bambú de Arashiyama",
 		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/2021_Sagano_Bamboo_forest_in_Arashiyama%2C_Kyoto%2C_Japan.jpg",
-		  "descripcion": "Un bosque lleno de bambú.",
+		  "descripcion": "Es un bosque natural de bambú. El bosque se compone principalmente de bambú moso y consta de varios caminos para turistas y visitantes.",
 		  "dia": "Día 3 - 10:00 AM"
 		},
 		{
 		"nombreLugar": "Mercado Nishiki",
 		  "imagenUrl": "https://res-2.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1648006915/kyoto/H_00480_001",
-		  "descripcion": "Un mercado nocturno",
+		  "descripcion": "Es un mercado en el centro de Kioto. Rico en historia y tradición, el mercado es conocido como el lugar para obtener muchos de los alimentos y productos famosos de Kioto.",
 		  "dia": "Día 3 - 19:00 AM"
 		}
       ]
@@ -106,7 +106,7 @@
       "nombreCiudad": "Nagoya",
       "precio": "145€",
 	  "dias": "5 días",
-	  "descripcion": "rgtgt4ht4",
+	  "descripcion": "Es un centro de fabricación y embarque. El barrio de Naka en la ciudad alberga museos y salones de pachinko (máquinas de apuestas).",
 	  "imagenPortada": "https://elviajerofeliz.com/wp-content/uploads/2020/05/Que-ver-en-Nagoya-Lugares-Imprescindibles.jpg",
 	  "guardado": "false",
 	  "visitado": "false",
@@ -115,31 +115,31 @@
         {
           "nombreLugar": "Castillo de Nagoya",
 		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Nagoya_Castle%28Larger%29.jpg",
-		  "descripcion": "Un castillo antiguo",
+		  "descripcion": "Es un castillo japonés, fue el primer castillo japonés en ser declarado Tesoro Nacional en 1930.",
 		  "dia": "Día 1 - 10:00 AM"
         },
 		{
           "nombreLugar": "Torre de la Televisión de Nagoya",
 		  "imagenUrl": "https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1645706712/aichi/M_00427_004",
-		  "descripcion": "La primera torre de televisión de Japón en 1954.",
+		  "descripcion": "Es una torre de televisión en Nagoya, se trata de la primera torre de onda eléctrica que se construyó en Japón y a día de hoy la torre de televisión mas antigua del país.",
 		  "dia": "Día 1 - 18:00 PM"
         },
         {
           "nombreLugar": "SCMaglev and Railway Park",
 		  "imagenUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bc161e38834019.5771430099a91.jpg",
-		  "descripcion": "Museo ferroviario",
+		  "descripcion": "Es un museo ferroviario propiedad. El museo presenta 39 vehículos ferroviarios de tamaño completo y una exhibición de autobuses, simuladores de cabinas de trenes y maquetas de maquetas de trenes.",
 		  "dia": "Día 2 - 10:30 AM"
         },
 		{
 		"nombreLugar": "Tokugawa Park",
 		  "imagenUrl": "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/08/Nagoya-Tokugawa-Garden-.jpg",
-		  "descripcion": "Un parque lleno de agua",
+		  "descripcion": "Es un jardín japonés en la ciudad de Nagoya.",
 		  "dia": "Día 3 - 11:00 AM"
 		},
 		{
 		"nombreLugar": "Museo de Ciencias de Nagoya",
 		  "imagenUrl": "https://mediaim.expedia.com/destination/3/37eb280d82763c20719321a0253cb05d.jpg",
-		  "descripcion": "Museo de Ciencias de Nagoya",
+		  "descripcion": "El Museo de Ciencias de Nagoya se divide en tres edificios de grandes dimensiones y 7 plantas. se encuentra en el parque Shirakawa y su atracción principal es el planetario.",
 		  "dia": "Día 4 - 10:00 AM"
 		}
       ]
@@ -148,7 +148,7 @@
       "nombreCiudad": "Osaka",
       "precio": "185€",
 	  "dias": "6 días",
-	  "descripcion": "rgtgt4ht4",
+	  "descripcion": "Es una gran ciudad portuaria. Es famosa por su moderna arquitectura, su vida nocturna y la abundante comida callejera.",
 	  "imagenPortada": "https://img.itinari.com/pages/images/original/0afe2310-ecf1-42ae-ba94-c6d9276d858b-istock-522473665.jpg?ch=DPR&dpr=1&w=1600&s=6b2e0ee23c973a0d07e3e44fb4bc1251",
 	  "guardado": "true",
 	  "visitado": "false",
@@ -157,38 +157,98 @@
         {
           "nombreLugar": "Dōtonbori",
 		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg",
-		  "descripcion": "Un castillo antiguo",
+		  "descripcion": "Es una de las principales avenidas de Osaka, que atraviesa todo el canal fluvial. Se trata del mayor centro comercial y turístico de la ciudad, conocido por su vida nocturna, carteles luminosos y múltiples restaurantes.",
 		  "dia": "Día 2 - 20:00 PM"
         },
 		{
           "nombreLugar": "Acuario de Osaka",
 		  "imagenUrl": "https://res-3.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1648205341/osaka/H_00496_001",
-		  "descripcion": "La primera torre de televisión de Japón en 1954.",
+		  "descripcion": "Es un acuario urbano bajo techo, considerado como uno de los más grandes del mundo. Mediante 14 acuarios de gran tamaño se reproduce el medio ambiente natural de 10 regiones que circundan el océano Pacífico.",
 		  "dia": "Día 3 - 11:00 AM"
         },
         {
           "nombreLugar": "Kuchu Teien Observatory",
 		  "imagenUrl": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Umeda_Sky_Building.jpg",
-		  "descripcion": "Museo ferroviario",
+		  "descripcion": "La plataforma de observación de este observatorio es un puente que conecta las dos torres del Umeda Sky Building.",
 		  "dia": "Día 3 - 17:30 PM"
         },
 		{
 		"nombreLugar": "Calle comercial Shinsekai Hondori",
 		  "imagenUrl": "https://place.matcha-jp.com/resize/1280x2000/2022/10/05-21-22-23-d2f36d1015f5662896859c51edab9af5.webp?w=656",
-		  "descripcion": "Un parque lleno de agua",
+		  "descripcion": "Es uno de los más famosos, por su única arquitectura y rica cultura. Además de disfrutar de la amplia selección de sabrosos restaurantes y locales de comida, también se puede retroceder en el tiempo en el Kasuga Gorakujo, el centro de juegos retro",
 		  "dia": "Día 4 - 18:00 PM"
 		},
 		{
 		"nombreLugar": "Sumiyoshi Taisha",
 		  "imagenUrl": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/sumiyoshi-taisha-shrine-2_optimized.jpg",
-		  "descripcion": "Museo de Ciencias de Nagoya",
+		  "descripcion": "Es un santuario Shintō, es uno de los santuarios más antiguos de Japón.",
 		  "dia": "Día 5 - 10:30 AM"
 		},
 		{
 		"nombreLugar": "Tempozan Giant Ferris Wheel",
 		  "imagenUrl": "https://www.placesandfoods.com/wp-content/uploads/2020/11/tempozan-giant-ferris-wheel.jpg",
-		  "descripcion": "Museo de Ciencias de Nagoya",
+		  "descripcion": "Es una noria de 112 metros de altura ubicada en Osaka. A llegar a la rueda se puede elegir entre dos tipos de carros uno normal y otro con piso de vidrio.",
 		  "dia": "Día 5 - 20:00 PM"
+		}
+      ]
+    },
+	{
+      "nombreCiudad": "Kobe",
+      "precio": "166€",
+	  "dias": "5 días",
+	  "descripcion": "Es una ciudad de la bahía de Osaka. Es famosa por su característico bife marmoleado y el espectacular entorno de montañas en el que se enmarca el puerto.",
+	  "imagenPortada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kobe_Port_Tower_and_Maritime_Museum%2C_November_2016.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.4",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Kobe Port Tower",
+		  "imagenUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/af/32/96/caption.jpg?w=1200&h=-1&s=1",
+		  "descripcion": "Es un monumento en la ciudad portuaria de Kōbe. La torre tiene 108 m de altura con un total de 8 pisos.",
+		  "dia": "Día 1 - 18:30 PM"
+        },
+		{
+          "nombreLugar": "Kobe Animal Kingdom",
+		  "imagenUrl": "https://img.japankuru.com/prg_img/img/img2018040613521035220100.jpg",
+		  "descripcion": "Es un parque de animales y flores ubicado en Port Island en Kobe. Se encuentra principalmente dentro y alrededor de un invernadero.",
+		  "dia": "Día 2 - 10:00 AM"
+        },
+        {
+          "nombreLugar": "KOKUBU Steak House",
+		  "imagenUrl": "https://kokubu.food89.com/images/dl5hQOoS3zbLgtW5.jpeg",
+		  "descripcion": "Un famoso restaurante para probar la famosa carne de res de Kobe.",
+		  "dia": "Día 2 - 21:00 PM"
+        },
+		{
+		"nombreLugar": "Suma-dera",
+		  "imagenUrl": "https://hyogojapan.com/wp-content/uploads/2018/07/4535_suma-dera-1.jpg",
+		  "descripcion": "Templo budista con construcciones históricas, reliquias culturales, estatuas y cuidados jardines.",
+		  "dia": "Día 3 - 10:30 AM"
+		},
+		{
+		"nombreLugar": "Weathercock House",
+		  "imagenUrl": "https://live.staticflickr.com/1167/809615079_b95dcdf8a1_b.jpg",
+		  "descripcion": "Mansión de ladrillo neobarroca diseñada por el arquitecto alemán Georg de Lalande y construida en 1904.",
+		  "dia": "Día 3 - 17:00 PM"
+		},
+		{
+		"nombreLugar": "The Great Hanshin-Awaji Memorial",
+		  "imagenUrl": "https://kobe-convention.jp/kcb01/wp-content/uploads/2017/10/bosai_center_6.jpg",
+		  "descripcion": "Un museo en memoria que comunica la experiencia de la catástrofe ocurrida por el terremoto Great Hanshin-Awaji.",
+		  "dia": "Día 3 - 21:30 PM"
+		},
+		{
+		"nombreLugar": "Rokkosan Farm",
+		  "imagenUrl": "https://www.feel-kobe.jp/app/wp-content/uploads/2021/03/photos_EB3uwMp2xqRSWUp8_kf1613362337025_rokkofarm20213.JPG",
+		  "descripcion": "Es una granja de pastos pública situada en el monte Rokkō, Kobe.",
+		  "dia": "Día 4 - 9:30 AM"
+		},
+		{
+		"nombreLugar": "Ikuta Jinja",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ikuta_Shrine_honden.jpg",
+		  "descripcion": "Es un santuario sintoísta en Chūō-ku, parte de la ciudad de Kobe, es posiblemente uno de los santuarios más antiguos del país.​",
+		  "dia": "Día 4 - 16:30 PM"
 		}
       ]
     }

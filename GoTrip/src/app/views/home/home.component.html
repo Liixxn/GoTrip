@@ -3,9 +3,9 @@
     <div class="row height d-flex justify-content-center align-items-center">
       <div class="col-md-6">
         <div class="form">
-          <i class="fa-solid fa-search"></i>
-          <input type="text" class="form-control form-input" placeholder="Busca tu lugar..." style="color: white;">
-          <span class="span-eliminar"><i class="fa fa-x"></i></span>
+          <i class="fa-solid fa-search" id="buscar-lugar" (click)="buscarLugar()"></i>
+          <input id="lugarInput" type="text" class="form-control form-input" placeholder="Busca tu lugar..." style="color: white;">
+          <span class="span-eliminar" role="button" (click)="eliminarBusqueda()" l><i class="fa fa-x"></i></span>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
 <section class="seccion-tarjetas">
   <h3>¡Conoce nuestros packs de viaje!</h3>
     <div class="scroll-content">
-      <div class="card">
+      <div class="card" [routerLink]="['/tour-list/USA']">
         <img class="card-img-top" src="https://eldiariony.com/wp-content/uploads/sites/2/2021/04/nueva-york-shutterstock_57571180.jpg?quality=75&strip=all&w=1200"
              alt="Foto de la estatua de La Libertad">
         <div class="card-body">
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="card" [routerLink]="['/tour-list']">
+      <div class="card" [routerLink]="['/tour-list/Japón']">
         <img class="card-img-top" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/16/a6/88/con-la-primavera-in-giappone.jpg?w=700&h=-1&s=1"
              alt="Foto de una pagoda japonesa">
         <div class="card-body">
@@ -65,7 +65,7 @@
       </div>
 
 
-      <div class="card">
+      <div class="card" [routerLink]="['/tour-list/España']">
         <img class="card-img-top" src="https://images.ecestaticos.com/6lNdBlA5P-RyU-ZAW6a-1rkUeJY=/1x118:2271x1394/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdca%2Fe5e%2Fc23%2Fdcae5ec23094c61634c4abf5b395b05c.jpg"
              alt="Foto de Gran Vía, Madrid">
         <div class="card-body">

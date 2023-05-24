@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { HttpClient} from "@angular/common/http";
+import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,8 +10,34 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  ciudades = ["Kyoto", "Madrid", "Florida"];
+  sub:any = "";
+  ciudades = ["kioto", "madrid", "florida"];
+  ciudadesJapon = ["Tokyo", "Kioto", "Nagoya", "Osaka", "Kobe"];
   countries = ["USA", "JAPÓN", "ESPAÑA"];
+  pais = "";
+  ciudad = "";
+
+  constructor(private httpClient: HttpClient, private activatedRoute: ActivatedRoute, private router: Router) { }
+
+  public buscarLugar() {
+    let lugarBuscar = ((<HTMLInputElement>document.getElementById("lugarInput")).value).trim();
+    lugarBuscar = lugarBuscar.charAt(0).toUpperCase() + lugarBuscar.slice(1).toLowerCase();
+
+    if (this.ciudadesJapon.includes(lugarBuscar)) {
+      console.log("Ciudad encontrada");
+      this.pais = "Japón";
+      this.ciudad = lugarBuscar;
+
+      this.router.navigate(['/descripcion', this.pais, this.ciudad]);
+
+    }
+
+  }
 
 
+  public eliminarBusqueda() {
+    let busqueda = document.getElementById("lugarInput") as HTMLInputElement;
+    busqueda.value = "";
+
+  }
 }
