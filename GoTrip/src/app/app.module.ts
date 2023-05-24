@@ -17,8 +17,13 @@ import { GuardadosComponent } from './views/guardados/guardados.component';
 import { BarraNavegacionComponent } from './views/barra-navegacion/barra-navegacion.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent } from './views/carrusel/carrusel.component';
-import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
 import { RecuperarComponent } from './views/recuperar/recuperar.component';
+import { ConfiguracionComponent } from './views/configuracion/configuracion.component';
+import { ConfiguracionAccesibilidadComponent } from './views/configuracion-accesibilidad/configuracion-accesibilidad.component';
+import { ConfiguracionCuentaComponent } from './views/configuracion-cuenta/configuracion-cuenta.component';
+import { ConfiguracionPrivacidadComponent } from './views/configuracion-privacidad/configuracion-privacidad.component';
+import { ConfiguracionNotificacionesComponent } from './views/configuracion-notificaciones/configuracion-notificaciones.component';
+import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +39,12 @@ import { RecuperarComponent } from './views/recuperar/recuperar.component';
     PerfilComponent,
     CarruselComponent,
     ConfiguracionComponent,
-    RecuperarComponent
+    RecuperarComponent,
+    ConfiguracionAccesibilidadComponent,
+    ConfiguracionCuentaComponent,
+    ConfiguracionPrivacidadComponent,
+    ConfiguracionNotificacionesComponent,
+    ConfiguracionAyudaComponent
   ],
   imports: [
     BrowserModule,
