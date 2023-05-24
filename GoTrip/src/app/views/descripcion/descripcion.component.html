@@ -1,0 +1,66 @@
+<section class="seccion-descripcion">
+  <div class="contenedor-atras">
+    <span class="atras" (click)="volverTourList(pais)">
+        <img src="assets/atras.png" alt="boton_atras">
+    </span>
+  </div>
+
+  <div class="contenedor-imagen">
+    <img id="imagen-portada" [src]="imagenPortadaSitio" alt="imagenPortada">
+  </div>
+
+  <div class="contenedor-contenidoCiudad">
+    <div class="contenedor-infoPrincipal">
+      <div class="contenedor-titulo">
+        <h2>{{ ciudad }}</h2>
+      </div>
+      <div class="contenedor-guardar">
+        <span class="visitado"><i class="fa-solid fa-location-dot" width="100%" height="100%"></i>Visitado</span>
+        <span class="guardar" role="button"><i id="icon-guardar" class="fa-regular fa-bookmark" width="100%" height="100%"></i></span>
+      </div>
+    </div>
+    <span class="rating">
+        <span class="fa fa-star"></span>
+        <span class="valoracion">{{rating}}</span>
+    </span>
+  </div>
+
+  <div class="contenedor-descripcion">
+    <h3>Descripción</h3>
+    <p>{{descripcionSitio}}</p>
+  </div>
+
+  <div class="contenedor-sitios">
+    <h3>Incluye</h3>
+    <div class="scroll-imagenes">
+      <div class="imagenes-container">
+        <img id="imagenes-ciudad" (click)="irCarrusel(pais, ciudad)" *ngFor="let image of images" [src]="image">
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor-planificacion">
+    <h3>Planificación</h3>
+    <div class="scroll-planificacion">
+      <div class="planificacion-line">
+
+        <ul class="lista-dias" *ngFor="let indice of numeroSitios">
+          <li>
+            <div class="time">{{planificacionDias[indice]}}</div>
+            <p>{{planificacionNombres[indice]}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="seccion-reserva">
+  <div class="contenedor-reserva">
+  <div class="contenedor-precio">
+    <span>{{precioSitio}}</span>
+  </div>
+  <button class="btn-reservar">Reservar</button>
+  </div>
+</section>

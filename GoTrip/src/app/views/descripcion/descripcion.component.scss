@@ -1,0 +1,222 @@
+.contenedor-atras {
+  position: absolute;
+  left: 16px;
+  top: 19px;
+}
+
+.contenedor-imagen {
+  height: 200px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.contenedor-contenidoCiudad {
+  width: 100%;
+  position: absolute;
+  top: 190px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-infoPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedor-titulo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+
+
+.contenedor-guardar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contenedor-guardar span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+}
+
+.visitado {
+  color: rgba(56, 112, 255, 1);
+  font-weight: bold;
+}
+
+.fa-solid, .fa-regular {
+  font-size: 25px;
+  color: rgba(56, 112, 255, 1);
+}
+
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #FFA113;
+  font-weight: bold;
+}
+
+.contenedor-descripcion {
+  z-index: 1;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    font-weight: bold;
+  }
+}
+
+
+.contenedor-sitios {
+  margin-top: 10px;
+
+  h3 {
+    font-weight: bold;
+  }
+}
+
+
+.scroll-imagenes {
+  width: 100%;
+  display: flex;
+}
+
+
+.imagenes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.imagenes-container img {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+
+.scroll-planificacion {
+  width: 100%;
+  height: 150px;
+}
+
+.contenedor-planificacion h3 {
+  font-weight: bold;
+}
+
+.planificacion-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.lista-dias {
+
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+
+}
+
+
+.lista-dias li {
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #abaaed;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+  list-style: none;
+
+  &:last-child{
+    border: 0px;
+    padding-bottom: 0;
+  }
+  &:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: white;
+    border: 1px solid #4e5ed3;
+    box-shadow: 3px 3px 0px #bab5f8;
+    box-shadow: 3px 3px 0px #bab5f8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+  }
+}
+
+
+
+
+.seccion-reserva {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.contenedor-reserva {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(136, 144, 194, 0.2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.contenedor-precio {
+  margin: 0 10px;
+  span {
+    color: #0846E7;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.btn-reservar {
+  background: #0846E7;
+  border-radius: 7px;
+  height: 29px;
+  border: none;
+  color: white;
+  width: 100%;
+  margin: 5px 10px;
+}

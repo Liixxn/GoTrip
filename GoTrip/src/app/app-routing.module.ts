@@ -5,7 +5,7 @@ import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
 import { RegistroComponent } from './views/registro/registro.component';
 import { TourListComponent } from './views/tour-list/tour-list.component';
-import { GuardadosComponent} from "./views/guardados/guardados.component";
+import { GuardadosComponent } from './views/guardados/guardados.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CarruselComponent} from "./views/carrusel/carrusel.component";
 import { RecuperarComponent } from './views/recuperar/recuperar.component';
@@ -17,6 +17,8 @@ import { ConfiguracionPrivacidadComponent } from './views/configuracion-privacid
 import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
 import { ReservaComponent } from './views/reserva/reserva.component';
 import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
+import { CarruselComponent } from "./views/carrusel/carrusel.component";
+import { DescripcionComponent} from "./views/descripcion/descripcion.component";
 
 
 const routes: Routes = [
@@ -25,7 +27,7 @@ const routes: Routes = [
   { path: 'guardados', component: GuardadosComponent},
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent},
-  { path: 'tour-list', component: TourListComponent },
+  { path: 'tour-list/:pais', component: TourListComponent },
   { path: 'perfil', component: PerfilComponent},
   { path: 'carrusel', component: CarruselComponent},
   { path: 'recuperar', component: RecuperarComponent},
@@ -36,7 +38,9 @@ const routes: Routes = [
   {path: 'configuracion-privacidad', component: ConfiguracionPrivacidadComponent},
   {path: 'configuracion-ayuda', component: ConfiguracionAyudaComponent},
   { path: 'reserva', component: ReservaComponent},
-  { path: 'reserva-realizada', component: ReservaRealizadaComponent}
+  { path: 'reserva-realizada', component: ReservaRealizadaComponent},
+  { path: 'carrusel/:pais/:ciudad', component: CarruselComponent },
+  {path: 'descripcion/:pais/:ciudad', component: DescripcionComponent}
 
 ];
 

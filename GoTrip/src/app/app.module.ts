@@ -5,6 +5,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +28,7 @@ import { ConfiguracionNotificacionesComponent } from './views/configuracion-noti
 import { ConfiguracionAyudaComponent } from './views/configuracion-ayuda/configuracion-ayuda.component';
 import { ReservaComponent } from './views/reserva/reserva.component';
 import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-realizada.component';
+import { DescripcionComponent } from './views/descripcion/descripcion.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,8 @@ import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-rea
     ConfiguracionNotificacionesComponent,
     ConfiguracionAyudaComponent,
     ReservaComponent,
-    ReservaRealizadaComponent
+    ReservaRealizadaComponent,
+    DescripcionComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +61,8 @@ import { ReservaRealizadaComponent } from './views/reserva-realizada/reserva-rea
     BrowserAnimationsModule,
     MatButtonModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
