@@ -1,0 +1,162 @@
+{
+  "USA": [
+    {
+      "nombreCiudad": "Nueva York",
+      "precio": "148€",
+	  "dias": "5 días",
+	  "descripcion": "Una metrópolis vibrante y diversa que nunca duerme.",
+	  "imagenPortada": "https://mindfultravelbysara.com/wp-content/uploads/2015/05/nueva-york-imprescindibl.jpg",
+	  "guardado": "true",
+	  "visitado": "true",
+	  "valoracion": "4.9",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Estatua de la Libertad",
+		  "imagenUrl": "https://img.asmedia.epimg.net/resizer/gCLUm1isBO1_c_VLxMZ0nMd53Ng=/1200x1200/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/YFIARMMDK5L65IVJVBS4FGJXZA.jpg",
+		  "descripcion": "Poderoso símbolo de libertad y esperanza, acogiendo a los visitantes con su majestuosa presencia",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Central Park",
+		  "imagenUrl": "https://static.anuevayork.com/wp-content/uploads/2020/06/13180423/Que-ver-en-Central-Park-Rutas-a-pie-y-en-bicicleta.jpg",
+		  "descripcion": "Hermosos paisajes, lagos, senderos y una gran variedad de actividades al aire libre",
+		  "dia": "Día 2 - 16:00 PM"
+        },
+        {
+          "nombreLugar": "Puente de Brooklyn",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/NYCBrooklynBridge.jpg",
+		  "descripcion": "Icono arquitectónico impresionante que une los distritos de Manhattan y Brooklyn",
+		  "dia": "Día 3 - 9:30 AM"
+        },
+		
+		{
+		"nombreLugar": "Times Square",
+		  "imagenUrl": "https://entre7maletas.com/wp-content/uploads/2021/12/times-square-1.jpg",
+		  "descripcion": "Epicentro vibrante y electrizante, conocido por sus deslumbrantes luces de neón",
+		  "dia": "Día 4 - 17:00 PM"
+	 },
+			
+		{
+		"nombreLugar": "Empire State Building",
+		  "imagenUrl": "https://media.timeout.com/images/101705309/image.jpg",
+		  "descripcion": "Símbolo icónico de la ciudad con vistas magníficas",
+		  "dia": "Día 5 - 11:00 AM"
+		}
+      ]
+    },
+	{
+      "nombreCiudad": "Los Angeles",
+      "precio": "185€",
+	  "dias": "4 días",
+	  "descripcion": "Una ciudad soleada y glamorosa que encarna el espíritu de la industria del entretenimiento",
+	  "imagenPortada": "https://hips.hearstapps.com/hmg-prod/images/elle-los-angeles02-1559906859.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.6",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Estudios Universal",
+		  "imagenUrl": "https://www.viajarlosangeles.com/img/universal-studios-los-angeles.jpg",
+		  "descripcion": "Parque temático y estudio de cine que sumerge a los visitantes en el mundo mágico del cine",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Observatorio Griffith",
+		  "imagenUrl": "https://griffithobservatory.org/wp-content/uploads/2021/03/cameron-venti-c5GkEd-j5vI-unsplash_noCautionTape.jpg",
+		  "descripcion": "Punto de observación astronómica que ofrece vistas panorámicas de la ciudad",
+		  "dia": "Día 1 - 17:00 PM"
+        },
+        {
+          "nombreLugar": "ChinaTown",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Los_angeles_chinatown0001.jpg",
+		  "descripcion": "Enclave cultural que con la atmósfera y tradiciones de China",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Santa Monica Pier",
+		  "imagenUrl": "https://www.lugaresturisticos.org/wp-content/uploads/2021/06/C%C3%B3mo-llegar-a-la-playa-de-Santa-M%C3%B3nica-2.jpg",
+		  "descripcion": "Increible destino costero que combina diversión, entretenimiento y hermosas vistas al mar",
+		  "dia": "Día 2 - 21:00 PM"
+		}
+      ]
+    },
+	{
+      "nombreCiudad": "Orlando",
+      "precio": "167€",
+	  "dias": "3 días",
+	  "descripcion": "Un destino turístico mágico y emocionante, hogar de famosos parques temáticos y atracciones para todas las edades",
+	  "imagenPortada": "https://cdn.britannica.com/07/201607-050-0B5774CB/Orlando-Florida-aerial-cityscape-towards-Eola-Lake.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.2",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Tuneles de Viento",
+		  "imagenUrl": "https://www.adrex.com/obj/files//151/sys_media_115515.jpg",
+		  "descripcion": "Experimenta la emoción y la adrenalina de volar sin gravedad",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Turismo por la ciudad",
+		  "imagenUrl": "https://images7.alphacoders.com/746/thumb-1920-746458.jpg",
+		  "descripcion": "Impresionantes campos de golf, centros comerciales y una escena culinaria diversa",
+		  "dia": "Día 1 - 18:00 PM"
+        },
+        {
+          "nombreLugar": "Estudios Universal Florida",
+		  "imagenUrl": "https://c0.wallpaperflare.com/preview/137/663/645/orlando-united-states-universal-orlando-resort-globe.jpg",
+		  "descripcion": "Desde emocionantes atracciones basadas en películas icónicas hasta los sets de filmación reales",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Disney World",
+		  "imagenUrl": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/orlandofl/8731_castle_landing_page_image_nu_2a8f8e6a-a1f9-45fd-8eca-596c92d04a7c.jpg",
+		  "descripcion": "Un mágico reino de fantasía donde los sueños se hacen realidad",
+		  "dia": "Día 3 - 11:00 AM"
+		}
+      ]
+    },
+	{
+      "nombreCiudad": "Chicago",
+      "precio": "185€",
+	  "dias": "6 días",
+	  "descripcion": "Una ciudad dinámica y culturalmente rica, conocida por su impresionante arquitectura, su escena musical y sus grandes planes",
+	  "imagenPortada": "https://lp-cms-production.imgix.net/2021-05/GettyRF_1139456318.jpg",
+	  "guardado": "true",
+	  "visitado": "false",
+	  "valoracion": "4.7",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Millenium Park",
+		  "imagenUrl": "https://media.cntraveler.com/photos/53e2dd87dddaa35c30f61223/16:9/w_2560,c_limit/chicago-millenium-park-sculpture.jpg",
+		  "descripcion": "Un espacio público icónico que combina arte, arquitectura y naturaleza",
+		  "dia": "Día 2 - 20:00 PM"
+        },
+		{
+          "nombreLugar": "Instituto de arte",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Art_Institute_of_Chicago_Lion_Statue_%282-D%29.jpg/1018px-Art_Institute_of_Chicago_Lion_Statue_%282-D%29.jpg",
+		  "descripcion": "Un tesoro artístico de renombre mundial que alberga una vasta colección de obras maestras",
+		  "dia": "Día 3 - 11:00 AM"
+        },
+        {
+          "nombreLugar": "Museo Field de Historia Natural",
+		  "imagenUrl": "https://i0.wp.com/www.infoviajera.com/wp-content/uploads/2019/08/USA-Chicago-Field-Museum-CityPASS-23.jpg?resize=1200%2C900&ssl=1",
+		  "descripcion": "Fascinante destino que te sumerge en el mundo de la ciencia y la naturaleza",
+		  "dia": "Día 3 - 17:30 PM"
+        },
+		{
+		"nombreLugar": "Torre Willis",
+		  "imagenUrl": "https://cdn.pixabay.com/photo/2013/06/05/19/05/chicago-116818_1280.jpg",
+		  "descripcion": "Icónico rascacielos que ofrece impresionantes vistas panorámicas de la ciudad",
+		  "dia": "Día 4 - 18:00 PM"
+		},
+		{
+		"nombreLugar": "Lincoln Park Zoo",
+		  "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Humboldt_Penguin.jpg/800px-Humboldt_Penguin.jpg",
+		  "descripcion": "Encantador santuario de vida silvestre que brinda la oportunidad de disfrutar de una amplia variedad de animales fascinantes",
+		  "dia": "Día 5 - 10:30 AM"
+		}
+      ]
+    }
+  ]
+}

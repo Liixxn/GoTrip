@@ -53,7 +53,25 @@ export class CarruselComponent {
         });
         break;
       case 'USA':
-        console.log("EEUU");
+        this.httpClient.get("assets/files/usa.txt").subscribe((data: any) => {
+
+          for (let i = 0; i < data[this.pais].length; i++) {
+            if (data[this.pais][i].nombreCiudad == this.ciudad) {
+              this.listaCiudades.push(data[this.pais][i].lugaresAVisitar);
+            }
+          }
+
+          for (let i = 0; i < this.listaCiudades.length; i++) {
+            for (let j = 0; j < this.listaCiudades[i].length; j++) {
+              if (this.listaCiudades[i][j].imagenUrl != undefined) {
+                this.tituloSitio.push(this.listaCiudades[i][j].nombreLugar);
+                this.images.push(this.listaCiudades[i][j].imagenUrl);
+                this.descripcionSitio.push(this.listaCiudades[i][j].descripcion);
+              }
+            }
+          }
+          this.cambiarFondo(this.images[0]);
+        });
         break;
       case 'España':
         console.log("España");
