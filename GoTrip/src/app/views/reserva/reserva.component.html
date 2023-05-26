@@ -1,45 +1,47 @@
+<div class="contenedor-atras" [routerLink]="['/descripcion', paisReserva, ciudadReserva]">
+  <img src="/assets/atras.png" alt="atras" class="atras"/>
+</div>
 
-<div class="body">
-    <div class="banner-container">
-       <img class="banner" src="/assets/BannerJapon.jpg" alt="BannerJapon"  />
-       <img src="/assets/atras.png" alt="atras" class="atras"/>
-    </div>
+
+<div class="banner-container">
+  <img class="banner" [src]="imagenReserva" alt="BannerJapon"/>
+</div>
 <form class="Reservaform">
-    <div class="titulo"> Información del pago</div>
+  <div class="titulo"> Información del pago</div>
 
-    <app-reserva-realizada *ngIf="reservaRealizada"></app-reserva-realizada>
+  <app-reserva-realizada *ngIf="reservaRealizada"></app-reserva-realizada>
 
   <div class="subtitulos">
     <label>Destino: </label>
-    <span> Tokyo, Japón </span>
+    <span> {{ ciudadReserva }}, {{ paisReserva }} </span>
   </div>
 
-  <div class = "subtitulos">
+  <div class="subtitulos">
     <label>Precio: </label>
-    <span> 179 € </span>
-    </div>
+    <span> {{ precioReserva }} </span>
+  </div>
 
 
+  <div class="tituloTarjeta"><label>Método de pago: </label></div>
+  <div class="metodoPago">
+    <button class="tarjeta-btn" data-img="assets/Visa.png" (click)="cambiarImagenTarjeta('assets/Visa.png')">
+      <img class="imagenTarjeta" src="assets/Visa.png" alt="Visa">
+    </button>
 
+    <button class="tarjeta-btn" data-img="assets/mastercard.png"
+            (click)="cambiarImagenTarjeta('assets/mastercard.png')">
+      <img class="imagenTarjeta" src="assets/mastercard.png" alt="Mastercard">
+    </button>
 
-    <div class="tituloTarjeta"><label>Método de pago: </label> </div>
-    <div class="metodoPago">
-        <button class="tarjeta-btn" data-img="assets/Visa.png" (click)="cambiarImagenTarjeta('assets/Visa.png')">
-            <img class="imagenTarjeta" src="assets/Visa.png" alt="Visa">
-          </button>
-
-          <button class="tarjeta-btn" data-img="assets/mastercard.png" (click)="cambiarImagenTarjeta('assets/mastercard.png')">
-            <img class="imagenTarjeta" src="assets/mastercard.png" alt="Mastercard">
-          </button>
-
-        <button class="tarjeta-btn" data-img="assets/Paypal.png" (click)="cambiarImagenTarjeta('assets/Paypal.png')">
-            <img class = "imagenTarjeta"src="assets/Paypal.png" alt="Paypal">
-        </button>
-        <button class="tarjeta-btn" data-img="assets/Googlepay.png" (click)="cambiarImagenTarjeta('assets/Googlepay.png')">
-            <img class = "imagenTarjeta"src="assets/Googlepay.png" alt="Googlepay">
-        </button>
-</div>
-<br>
+    <button class="tarjeta-btn" data-img="assets/Paypal.png" (click)="cambiarImagenTarjeta('assets/Paypal.png')">
+      <img class="imagenTarjeta" src="assets/Paypal.png" alt="Paypal">
+    </button>
+    <button class="tarjeta-btn" data-img="assets/Googlepay.png"
+            (click)="cambiarImagenTarjeta('assets/Googlepay.png')">
+      <img class="imagenTarjeta" src="assets/Googlepay.png" alt="Googlepay">
+    </button>
+  </div>
+  <br>
   <div class="inputdiv">
     <label>Número de tarjeta: </label><br>
     <div class="input-with-icon">
@@ -47,20 +49,20 @@
       <img class="fotoTarjeta" [src]="fotoTarjetaSrc" alt="tarjeta">
     </div>
 
-  <div class="inputdiv">
-    <label>Expiración y CCV: </label>
-    <div class="input-with-icon">
-      <input class="campoinput2" type="text" name="tarjeta" placeholder="22/10/27">
+    <div class="inputdiv">
+      <label>Expiración y CCV: </label>
+      <div class="input-with-icon">
+        <input class="campoinput2" type="text" name="tarjeta" placeholder="22/10/27">
 
-      <input class="campoinput2" type="text" name="tarjeta" placeholder="567">
+        <input class="campoinput2" type="text" name="tarjeta" placeholder="567">
+      </div>
     </div>
-  </div>
 
- </div>
-<div class="reservar-btn-div">
-    <button class="reservar-btn"  (click)="mostrarReservaRealizada()">
-        <label>Reservar</label>
+  </div>
+  <div class="reservar-btn-div">
+    <button class="reservar-btn" (click)="mostrarReservaRealizada()">
+      <label>Reservar</label>
     </button>
-</div>
+  </div>
 </form>
-</div>
+

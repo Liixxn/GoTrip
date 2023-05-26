@@ -1,5 +1,7 @@
 .atras {
-  text-align: left;
+  position: absolute;
+  left: 16px;
+  top: 19px;
 
 }
 
@@ -34,7 +36,7 @@ height: 100%;
   width: 80%;
   margin-bottom: 20%;
   max-width: 400px;
-  
+
 }
 
 .usernameinputdiv label, .passwordinputdiv label {

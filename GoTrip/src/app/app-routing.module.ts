@@ -36,7 +36,7 @@ const routes: Routes = [
   {path: 'configuracion-notificaciones', component: ConfiguracionNotificacionesComponent},
   {path: 'configuracion-privacidad', component: ConfiguracionPrivacidadComponent},
   {path: 'configuracion-ayuda', component: ConfiguracionAyudaComponent},
-  { path: 'reserva', component: ReservaComponent},
+  { path: 'reserva/:pais/:ciudad', component: ReservaComponent},
   { path: 'reserva-realizada', component: ReservaRealizadaComponent},
   { path: 'carrusel/:pais/:ciudad', component: CarruselComponent },
   {path: 'descripcion/:pais/:ciudad', component: DescripcionComponent}

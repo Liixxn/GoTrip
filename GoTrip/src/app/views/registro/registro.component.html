@@ -1,6 +1,6 @@
 
 
-<span class="atras">
+<span class="atras" [routerLink]="['']">
     <img src="assets/atras.png" alt="boton_atras">
 </span>
 <form class="registroform">
@@ -25,9 +25,9 @@
 
 
     <div class="registro-btn-div">
-    <button class="registro-btn">
+    <button class="registro-btn" [routerLink]="['/login']">
     Registrar
     </button>
     </div>
-    <a class ="register-link" href="url">¿Ya tiene una cuenta?</a>
+    <a class ="register-link" [routerLink]="['/login']">¿Ya tiene una cuenta?</a>
 </form>

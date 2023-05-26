@@ -26,7 +26,7 @@ $gotrip-color: #1F5EFD;
   width: 100%;
   padding: 12px 35px;
   box-sizing: border-box;
-  border: 2px solid green;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .span-eliminar {
@@ -119,6 +119,7 @@ $gotrip-color: #1F5EFD;
   overflow: hidden;
   position: relative;
   --blur: 2px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 
@@ -156,8 +157,51 @@ $gotrip-color: #1F5EFD;
   color: white;
 }
 
-.fa-star {
+.fa-solid {
   color: yellow;
 }
 
 
+.contenedor-banner {
+  width: 100%;
+  padding: 15px;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  background-color: #1F5EFD;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-img img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 0 2em 2em 0 / 0 3em 3em 0;
+  box-shadow: 3px 5px 1px 3px darken(#01123d, 20%);
+}
+
+.banner-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h4 {
+    font-szie: 12px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+}

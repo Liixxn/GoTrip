@@ -65,9 +65,7 @@ export class DescripcionComponent {
         break;
       case 'USA':
         this.httpClient.get("assets/files/usa.txt").subscribe((data: any) => {
-          console.log(data);
           for (let i = 0; i < data[this.pais].length; i++) {
-            console.log(data[this.pais][i]);
             if (data[this.pais][i].nombreCiudad == this.ciudad) {
               this.lugaresVisitar.push(data[this.pais][i].lugaresAVisitar);
               this.descripcionSitio = data[this.pais][i].descripcion;
@@ -91,7 +89,7 @@ export class DescripcionComponent {
           }
 
         });
-        
+
         break;
       case 'España':
         this.httpClient.get("assets/files/spain.txt").subscribe((data: any) => {

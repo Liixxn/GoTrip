@@ -1,6 +1,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-    <span class="atras">
+    <span class="atras" [routerLink]="['']">
         <img src="assets/atras.png" alt="boton_atras">
     </span>
     <form class="loginform">
@@ -16,7 +16,7 @@
                 <div class="passwordinputdiv">
                 <label>Contraseña : </label><br>
                 <input class="passwordinput" type="text" name="password"[(ngModel)]="password">
-                <a class ="forgot-link" href="url">¿Olvidó su contraseña?</a>
+                <a class ="forgot-link" [routerLink]="['/recuperar']">¿Olvidó su contraseña?</a>
             </div>
         </div>
 
@@ -24,5 +24,5 @@
         <div class="login-btn-div">
             <button class="login-btn" [routerLink]="['/perfil']" (click)="onLogin()">Login</button>
         </div>
-        <a class ="register-link" href="url">Registrarse</a>
+        <a class ="register-link" [routerLink]="['/registro']">Registrarse</a>
     </form>

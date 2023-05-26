@@ -61,6 +61,6 @@
   <div class="contenedor-precio">
     <span>{{precioSitio}}</span>
   </div>
-  <button class="btn-reservar">Reservar</button>
+  <button class="btn-reservar" [routerLink]="['/reserva', pais, ciudad]" >Reservar</button>
   </div>
 </section>
