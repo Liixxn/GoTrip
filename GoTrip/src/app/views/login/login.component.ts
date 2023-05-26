@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  username: string = '';
+  password: string = '';
+
+  constructor() { }
+
+
+  onLogin() {
+    if (this.username === 'correo@uem.es' && this.password === 'password') {
+
+      console.log('Login successful');
+    } else {
+
+      console.log('Invalid credentials');
+    }
+  }
 }

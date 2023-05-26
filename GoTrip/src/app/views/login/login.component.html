@@ -10,21 +10,19 @@
         <div class="inputs">
             <div class="usernameinputdiv">
                 <label>Correo : </label><br>
-                <input class="usernameinput" type="text" name="username">
+                <input class="usernameinput" type="text" name="username"[(ngModel)]="username">
                 </div>
 
                 <div class="passwordinputdiv">
                 <label>Contraseña : </label><br>
-                <input class="passwordinput" type="text" name="password">
+                <input class="passwordinput" type="text" name="password"[(ngModel)]="password">
                 <a class ="forgot-link" href="url">¿Olvidó su contraseña?</a>
             </div>
         </div>
 
 
         <div class="login-btn-div">
-        <button class="login-btn" [routerLink]="['/perfil']">
-        Login
-        </button>
+            <button class="login-btn" [routerLink]="['/perfil']" (click)="onLogin()">Login</button>
         </div>
         <a class ="register-link" href="url">Registrarse</a>
     </form>
