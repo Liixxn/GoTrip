@@ -1,0 +1,148 @@
+{
+  "España": [
+    {
+      "nombreCiudad": "Madrid",
+      "precio": "104€",
+	  "dias": "6 días",
+	  "descripcion": "Madrid es la capital de España y se encuentra en el centro del país, en la comunidad autónoma de Madrid. Es una ciudad cosmopolita y vibrante, conocida por su rica historia, su cultura diversa y su animada vida nocturna.",
+	  "imagenPortada": "https://forbes.es/wp-content/uploads/2021/10/GettyImages-170131278-1200x802.jpg",
+	  "guardado": "true",
+	  "visitado": "true",
+	  "valoracion": "4.2",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Palacio Real",
+		  "imagenUrl": "https://turistaenmiciudadtours.files.wordpress.com/2020/11/historia-palacio-real-madrid.jpg?w=1568",
+		  "descripcion": "Una majestuosa obra arquitectónica, cautiva con su imponente fachada y su rica historia real.",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Bernabeu Stadium",
+		  "imagenUrl": "https://www.realmadrid.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fjpeg&blobkey=id&blobtable=MungoBlobs&blobwhere=1203340178933&ssbinary=true",
+		  "descripcion": "El Palacio Real del Bernabéu Stadium, imponente y majestuoso, alberga la pasión y la grandeza del fútbol en cada rincón.",
+		  "dia": "Día 1 - 11:00 AM"
+        },
+        {
+          "nombreLugar": "La Plaza Mayor",
+		  "imagenUrl": "https://media.viajando.travel/p/857325693b2053686a00c1466e6e0962/adjuntos/236/imagenes/000/367/0000367647/1200x675/smart/madrid-plaza-mayorjpg.jpg",
+		  "descripcion": "La Plaza Mayor de Madrid, con su arquitectura imponente y su ambiente animado, es el corazón histórico y social de la ciudad, donde se entrelazan siglos de historia y bulliciosa actividad.",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Parque del Retiro",
+		  "imagenUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/53/53/2c/img-20160729-205021-largejpg.jpg?w=1200&h=1200&s=1",
+		  "descripcion": "Uno de los espacios verdes más emblemáticos de la ciudad.",
+		  "dia": "Día 2 - 20:30 PM"
+		},
+		{
+		"nombreLugar": "Museo del Prado",
+		  "imagenUrl": "https://content3.cdnprado.net/imagenes/Documentos/imgsem/92/92a1/92a13834-fb16-179a-f71f-968524312368/29bfa12c-a5f0-f152-5af2-4449a919387d.jpg",
+		  "descripcion": "Descubre el Museo del Prado en Madrid, una joya artística que te transportará a través de siglos de historia y maestría.",
+		  "dia": "Día 3 - 11:00 AM"
+		},
+		{
+		"nombreLugar": "Parque Warner Bro",
+		  "imagenUrl": "https://cdn-imgix.headout.com/tour/26442/TOUR-IMAGE/0d32c22f-c8dd-4821-a7a9-13ba651f38ae-13897-madrid-warner-bros-park-madrid--skip-the-line-ticket-01.jpg",
+		  "descripcion": "Sumérgete en la magia y la emoción del Parque Warner Bros en Madrid, donde tus sueños se convierten en realidad.",
+		  "dia": "Día 4 - 10:00 AM"
+		},
+		{
+		"nombreLugar": "Dia Libre Gran Via",
+		  "imagenUrl": "https://forbes.es/wp-content/uploads/2021/10/GettyImages-170131278-1200x802.jpg",
+		  "descripcion": "Embárcate en un recorrido por esta famosa avenida, conocida por sus majestuosos edificios, impresionante arquitectura y vibrante vida urbana.",
+		  "dia": "Día 5 - 18:00 PM"
+		}
+      ]
+    },
+	{
+      "nombreCiudad": "Barcelona",
+      "precio": "165€",
+	  "dias": "4 días",
+	  "descripcion": "Barcelona es una ciudad situada en la costa noreste de España, en la comunidad autónoma de Cataluña. Es la segunda ciudad más grande del país y es conocida por su estilo de vida mediterráneo, su arquitectura impresionante y su rica cultura.",
+	  "imagenPortada": "https://static.independent.co.uk/2023/03/10/14/iStock-1320014700.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.6",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "La Sagrada Familia",
+		  "imagenUrl": "https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/020/484/original/d0531471711b367b94abfd4dbc29e6ae/spain-barcelona-sagrada-familia-080416-az.jpg",
+		  "descripcion": "Descubre La Sagrada Familia en Barcelona, una obra maestra arquitectónica que te dejará sin aliento.",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Paseo de Gracia",
+		  "imagenUrl": "https://barcelonapaseodegracia.com/wp-content/uploads/2019/08/passeig-de-gracia-4.jpg",
+		  "descripcion": "Descubre el Paseo de Gracia en Barcelona, una avenida llena de estilo y elegancia que capturará tu atención.",
+		  "dia": "Día 1 - 17:00 PM"
+        },
+        {
+          "nombreLugar": "Las Ramblas",
+		  "imagenUrl": "https://www.thetrainline.com/cms/media/5682/aerial-view-of-la-rambla-barcelona.jpg",
+		  "descripcion": "Mercado Iconico de Barcelona",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Museo Picasso",
+		  "imagenUrl": "https://museupicassobcn.org/museu/memoria-anual/2015/images/international-reference-hero.jpg",
+		  "descripcion": "Sumérgete en el mundo del legendario pintor Pablo Picasso mientras exploras esta extraordinaria colección de su obra.",
+		  "dia": "Día 2 - 21:00 PM"
+		},
+		{
+		"nombreLugar": "Visita a Camp Nou",
+		  "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkV8mjbl6GLaltx-wSehZOFxq5dwrIJxDYdvy0QsFpPp7qkIJmaFOunQRebClmp5uvVTI&usqp=CAU",
+		  "descripcion":"Descubre el icónico Camp Nou en Barcelona",
+		  "dia": "Día 3 - 10:00 AM"
+		},
+		{
+		"nombreLugar": "Tarde libre Playa",
+		  "imagenUrl": "https://porelmundo.viajes/wp-content/uploads/2018/08/bigstock-Barcelona-August-People-240994657_opt-1.jpg",
+		  "descripcion": "Descubre las hermosas playas de Barcelona",
+		  "dia": "Día 3 - 19:00 AM"
+		}
+      ]
+    },
+	{
+      "nombreCiudad": "Valencia",
+      "precio": "145€",
+	  "dias": "5 días",
+	  "descripcion": "Valencia, la ciudad donde la historia se entrelaza con la arquitectura moderna, las playas doradas abrazan la brisa mediterránea y el aroma de la paella llena cada rincón con su irresistible encanto.",
+	  "imagenPortada": "https://www.sonneil.com/blog/wp-content/uploads/2022/04/dimitry-b-Yr1-wDTJXj4-unsplash-1-scaled.jpg",
+	  "guardado": "false",
+	  "visitado": "false",
+	  "valoracion": "4.2",
+      "lugaresAVisitar": [
+        {
+          "nombreLugar": "Ciudad de las Artes y las Ciencias:",
+		  "imagenUrl": "https://www.tegustaviajar.com/wp-content/uploads/2021/08/panoramica-ciudad-de-las-artes-y-las-ciencias.jpg",
+		  "descripcion": "Este complejo arquitectónico impresionante alberga el Museo de las Ciencias Príncipe Felipe, el Oceanogràfic, el Hemisférico y el Palau de les Arts Reina Sofía",
+		  "dia": "Día 1 - 10:00 AM"
+        },
+		{
+          "nombreLugar": "Casco antiguo",
+		  "imagenUrl": "https://multimedia.comunitatvalenciana.com/092FCE84F75E4F2D9F2E4ED075DE27DC/img/2DE29BE5E0454CBE9C89358514A5E915/CV__-Centro_Historico_de_Valencia_-__1920x1080.jpg?responsive",
+		  "descripcion": "Explora el encantador Barrio del Carmen, donde encontrarás la Catedral de Valencia, la Lonja de la Seda y el Mercado Central, lleno de deliciosos productos frescos.",
+		  "dia": "Día 1 - 18:00 PM"
+        },
+        {
+          "nombreLugar": "Dia libre de Playa",
+		  "imagenUrl": "https://www.civitatis.com/blog/wp-content/uploads/2021/05/playas-valencia.jpg",
+		  "descripcion": "Disfruta del sol y el mar en las hermosas playas de Valencia, como la playa de la Malvarrosa y la playa de la Patacona.",
+		  "dia": "Día 2 - 10:30 AM"
+        },
+		{
+		"nombreLugar": "Jardín del Turia",
+		  "imagenUrl": "https://www.thebohoguide.com/wp-content/uploads/job-manager-uploads/main_image/2016/10/CSC_0095.jpg",
+		  "descripcion": "Recorre el antiguo cauce del río Turia, convertido en un extenso parque con jardines, áreas recreativas, senderos y espacios para practicar deportes.",
+		  "dia": "Día 3 - 11:00 AM"
+		},
+		{
+		"nombreLugar": "Mercado de Colón",
+		  "imagenUrl": "https://i0.wp.com/infovalenciatravel.com/wp-content/uploads/2021/07/mercado-deColonValencia.jpg?resize=1080%2C1438&ssl=1",
+		  "descripcion": "Un elegante mercado modernista convertido en un espacio gastronómico y cultural con restaurantes, tiendas y actividades.",
+		  "dia": "Día 4 - 10:00 AM"
+		}
+      ]
+    }
+  ]
+}

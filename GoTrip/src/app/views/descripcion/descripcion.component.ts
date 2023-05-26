@@ -67,7 +67,33 @@ export class DescripcionComponent {
         console.log("EEUU");
         break;
       case 'España':
-        console.log("España");
+        this.httpClient.get("assets/files/spain.txt").subscribe((data: any) => {
+
+          for (let i = 0; i < data[this.pais].length; i++) {
+            if (data[this.pais][i].nombreCiudad == this.ciudad) {
+              this.lugaresVisitar.push(data[this.pais][i].lugaresAVisitar);
+              this.descripcionSitio = data[this.pais][i].descripcion;
+              this.precioSitio = data[this.pais][i].precio;
+              this.rating = data[this.pais][i].valoracion;
+              this.guardadoSitio = data[this.pais][i].guardado;
+              this.visitadoSitio = data[this.pais][i].visitado;
+              this.imagenPortadaSitio = data[this.pais][i].imagenPortada;
+            }
+          }
+
+          for (let i = 0; i < this.lugaresVisitar.length; i++) {
+            for (let j = 0; j < this.lugaresVisitar[i].length; j++) {
+              if (this.lugaresVisitar[i][j].imagenUrl != undefined) {
+                this.images.push(this.lugaresVisitar[i][j].imagenUrl);
+                this.planificacionDias.push(this.lugaresVisitar[i][j].dia);
+                this.planificacionNombres.push(this.lugaresVisitar[i][j].nombreLugar);
+                this.numeroSitios.push(j);
+              }
+            }
+          }
+
+        });
+
         break;
 
     }
