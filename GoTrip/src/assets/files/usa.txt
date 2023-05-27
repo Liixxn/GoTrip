@@ -52,7 +52,7 @@
 	  "imagenPortada": "https://hips.hearstapps.com/hmg-prod/images/elle-los-angeles02-1559906859.jpg",
 	  "guardado": "false",
 	  "visitado": "false",
-	  "valoracion": "4.6",
+	  "valoracion": "4.7",
       "lugaresAVisitar": [
         {
           "nombreLugar": "Estudios Universal",
@@ -88,7 +88,7 @@
 	  "imagenPortada": "https://cdn.britannica.com/07/201607-050-0B5774CB/Orlando-Florida-aerial-cityscape-towards-Eola-Lake.jpg",
 	  "guardado": "false",
 	  "visitado": "false",
-	  "valoracion": "4.2",
+	  "valoracion": "4.1",
       "lugaresAVisitar": [
         {
           "nombreLugar": "Tuneles de Viento",
@@ -124,7 +124,7 @@
 	  "imagenPortada": "https://lp-cms-production.imgix.net/2021-05/GettyRF_1139456318.jpg",
 	  "guardado": "true",
 	  "visitado": "false",
-	  "valoracion": "4.7",
+	  "valoracion": "4.1",
       "lugaresAVisitar": [
         {
           "nombreLugar": "Millenium Park",

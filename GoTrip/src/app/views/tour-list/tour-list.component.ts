@@ -1,125 +1,57 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
-import {HttpClient} from "@angular/common/http";
+import { switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-tour-list',
   templateUrl: './tour-list.component.html',
   styleUrls: ['./tour-list.component.scss']
 })
-export class TourListComponent {
+export class TourListComponent implements OnInit {
 
-  lugaresVisitar: any = [];
-  images: any = [];
-
-  sub: any = "";
-  imagenPortadaSitio = "";
-  pais = "";
-  ciudad = "";
-  visitadoSitio = false;
-  guardadoSitio = false;
-  rating = 0;
-  descripcionSitio = "";
-  planificacionDias: any = [];
-  planificacionNombres:any = [];
-  numeroSitios:any = [];
-  precioSitio = 0;
+  ciudades: any[] = [];
+  pais: string | null = null;
+  imagenPais: string = "";
+  media: number = 0; 
 
 
-  constructor(private httpClient: HttpClient, private router: Router, private activatedRoute: ActivatedRoute) {
+  constructor(
+    private http: HttpClient,
+    private route: ActivatedRoute
+  ) {}
+
+  ngOnInit() {
+    this.route.paramMap.pipe(
+      switchMap(params => {
+        this.pais = params.get('pais');
+
+        switch (this.pais) {
+          case 'Japón':
+            this.imagenPais = "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/16/a6/88/con-la-primavera-in-giappone.jpg?w=700&h=-1&s=1";
+            this.media = 4.54;
+            return this.http.get<any>('/assets/files/japon.txt');
+          case 'USA':
+            this.imagenPais = "https://eldiariony.com/wp-content/uploads/sites/2/2021/04/nueva-york-shutterstock_57571180.jpg?quality=75&strip=all&w=1200";
+            this.media = 4.45;
+            return this.http.get<any>('/assets/files/usa.txt');
+          case 'España':
+            this.imagenPais =  "https://images.ecestaticos.com/6lNdBlA5P-RyU-ZAW6a-1rkUeJY=/1x118:2271x1394/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdca%2Fe5e%2Fc23%2Fdcae5ec23094c61634c4abf5b395b05c.jpg";
+            this.media = 4.33;
+            return this.http.get<any>('/assets/files/spain.txt');
+          default:
+            return [];
+        }
+      })
+    ).subscribe(data => {
+      this.ciudades = data[this.pais || ''] || [];
+    });
   }
-
-  ngOnInit(): void {
-    this.cargarDescripcion();
-
-    switch (this.pais) {
-
-      case 'Japón':
-        this.httpClient.get("assets/files/japon.txt").subscribe((data: any) => {
-
-          for (let i = 0; i < data[this.pais].length; i++) {
-            if (data[this.pais][i].nombreCiudad == this.ciudad) {
-              this.lugaresVisitar.push(data[this.pais][i].lugaresAVisitar);
-              this.descripcionSitio = data[this.pais][i].descripcion;
-              this.precioSitio = data[this.pais][i].precio;
-              this.rating = data[this.pais][i].valoracion;
-              this.guardadoSitio = data[this.pais][i].guardado;
-              this.visitadoSitio = data[this.pais][i].visitado;
-              this.imagenPortadaSitio = data[this.pais][i].imagenPortada;
-            }
-          }
-
-          for (let i = 0; i < this.lugaresVisitar.length; i++) {
-            for (let j = 0; j < this.lugaresVisitar[i].length; j++) {
-              if (this.lugaresVisitar[i][j].imagenUrl != undefined) {
-                this.images.push(this.lugaresVisitar[i][j].imagenUrl);
-                this.planificacionDias.push(this.lugaresVisitar[i][j].dia);
-                this.planificacionNombres.push(this.lugaresVisitar[i][j].nombreLugar);
-                this.numeroSitios.push(j);
-              }
-            }
-          }
-
-        });
-        break;
-      case 'USA':
-        this.httpClient.get("assets/files/usa.txt").subscribe((data: any) => {
-          console.log(data);
-          for (let i = 0; i < data[this.pais].length; i++) {
-            console.log(data[this.pais][i]);
-            if (data[this.pais][i].nombreCiudad == this.ciudad) {
-              this.lugaresVisitar.push(data[this.pais][i].lugaresAVisitar);
-              this.descripcionSitio = data[this.pais][i].descripcion;
-              this.precioSitio = data[this.pais][i].precio;
-              this.rating = data[this.pais][i].valoracion;
-              this.guardadoSitio = data[this.pais][i].guardado;
-              this.visitadoSitio = data[this.pais][i].visitado;
-              this.imagenPortadaSitio = data[this.pais][i].imagenPortada;
-            }
-          }
-
-          for (let i = 0; i < this.lugaresVisitar.length; i++) {
-            for (let j = 0; j < this.lugaresVisitar[i].length; j++) {
-              if (this.lugaresVisitar[i][j].imagenUrl != undefined) {
-                this.images.push(this.lugaresVisitar[i][j].imagenUrl);
-                this.planificacionDias.push(this.lugaresVisitar[i][j].dia);
-                this.planificacionNombres.push(this.lugaresVisitar[i][j].nombreLugar);
-                this.numeroSitios.push(j);
-              }
-            }
-          }
-
-        });
-
-        break;
-      case 'España':
-        console.log("España");
-        break;
+  /*
+   public  esGuardada (){
+    if (this.ciudades.guardado == true){
 
     }
-
-
-
-
   }
-
-
-  public cargarDescripcion() {
-    this.sub = this.activatedRoute.params.subscribe(params => {
-      this.pais = params['pais'];
-      this.ciudad = params['ciudad'];
-    });
-
-  }
-
-
-
-  public irCarrusel(pais: string, ciudad: string) {
-    this.router.navigate(['/carrusel', pais, ciudad]);
-  }
-
-  public irDescripcion(pais: string, ciudad: string){
-    this.router.navigate(['/descripcion', pais, ciudad]);
-  }
+  */
 }
