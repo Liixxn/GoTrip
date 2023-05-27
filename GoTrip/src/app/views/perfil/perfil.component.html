@@ -3,8 +3,11 @@
 <div class="container">
 
   <div class="background">
-
+    <div class="settings">
+      <img src="assets/gear.png" alt="boton_settings" [routerLink]="['/configuracion']">
+    </div>
    <div class="upper">
+
 
      <img src="/assets/landscape1.jpg" >
 
@@ -22,8 +25,23 @@
    <div class="profilename">
     <span class = "name">Nombre</span>
    </div>
+   <div class="reserva-label">
+    <span class = "name">Reservas</span>
+   </div>
+   <div class="scrolling-wrapper">
 
+    <div class="card" style="background-image: url('assets/Kyoto.jpg')">
+    </div>
+    <div class="card" style="background-image: url('https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg')">
+    </div>
+    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSj27udv76hpN7L4royLkJQ2mzsqkphzixWQ&usqp=CAU')">
+    </div>
+    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHSGme6Zza43Amj_W6H5hRuvUVw7YeCuqNw&usqp=CAU')">
+    </div>
+    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOU2pioMi24TX-A3fGltXVgtErLTwLON86Zg&usqp=CAU')">
+    </div>
 
+  </div>
    <div class ="content">
     <div class="tab-links-div">
       <div class="tab-links">
@@ -32,6 +50,7 @@
         <!-- Add more tab links as needed -->
       </div>
     </div>
+    
 
 
     <div class="scrolling-wrapper" id="scrollWrapper1" [ngClass]="{'hidden': activeWrapperIndex !== 1}">
@@ -52,17 +71,51 @@
     <div class="scrolling-wrapper" id="scrollWrapper2" [ngClass]="{'hidden': activeWrapperIndex !== 2}">
 
       <div class="card" style="background-image: url('https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event)">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </div>
       </div>
       <div class="card" style="background-image: url('assets/Osaka.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event)">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </div>
       </div>
       <div class="card" style="background-image: url('https://img.delicious.com.au/WIXeICQZ/del/2018/12/istanbul-turkey-97382-2.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event)">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </div>
       </div>
       <div class="card" style="background-image: url('https://img.delicious.com.au/DGZCHR1s/del/2018/12/paris-france-97370-2.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event)">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </div>
       </div>
       <div class="card" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event)">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </div>
       </div>
       <div class="card" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
-        <!-- Content for the second card -->
         <div class="rating-bar" (click)="onStarClick($event)">
           <span class="star"></span>
           <span class="star"></span>
