@@ -92,6 +92,11 @@
   overflow-y: hidden;
   white-space: nowrap;
 }
+.scrolling-wrapper0 {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
 .tab-links{
 font-family: 'Viga', sans-serif;
 text-decoration: none !important;
@@ -168,7 +173,23 @@ margin-bottom: 25px !important;
   }
 
 }
+.scrolling-wrapper0,
+.scrolling-wrapper0-flexbox {
+  height: 270px;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.scrolling-wrapper0 {
+  &.hidden {
+    display: none;
+  }
+
+}
 
 .rating-bar {
   display: flex;
@@ -191,7 +212,7 @@ margin-bottom: 25px !important;
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url('/assets/enviar.png');
+  background-image: url('/assets/star-grey.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

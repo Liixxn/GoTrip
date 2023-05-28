@@ -33,19 +33,28 @@ export class PerfilComponent implements OnInit {
     return false; // Prevent the default behavior of the tab link
   }
 
-  onStarClick(event: MouseEvent): void {
+  onStarClick(event: MouseEvent, cardId: number): void {
     const starClicked = event.target as HTMLElement;
     if (starClicked.classList.contains('star')) {
-      const stars = document.querySelectorAll('.star');
-      const starIndex = Array.from(stars).indexOf(starClicked);
-
-      // Clear all stars
-      stars.forEach(star => star.classList.remove('filled'));
-
-      // Fill stars up to the clicked index
-      for (let i = 0; i <= starIndex; i++) {
-        stars[i].classList.add('filled');
+      const card = document.getElementById(`card${cardId}`); // Find the card element using its ID
+      if (card) {
+        const stars = card.getElementsByClassName('star');
+        const starIndex = Array.from(stars).indexOf(starClicked);
+  
+        // Clear all stars within the card
+        for (let i = 0; i < stars.length; i++) {
+          stars[i].classList.remove('filled');
+        }
+  
+        // Fill stars up to the clicked index within the card
+        for (let i = 0; i <= starIndex; i++) {
+          stars[i].classList.add('filled');
+        }
       }
     }
   }
+  
+  
+  
+  
 }

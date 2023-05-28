@@ -28,7 +28,7 @@
    <div class="reserva-label">
     <span class = "name">Reservas</span>
    </div>
-   <div class="scrolling-wrapper">
+   <div class="scrolling-wrapper0">
 
     <div class="card" style="background-image: url('assets/Kyoto.jpg')">
     </div>
@@ -70,8 +70,8 @@
 
     <div class="scrolling-wrapper" id="scrollWrapper2" [ngClass]="{'hidden': activeWrapperIndex !== 2}">
 
-      <div class="card" style="background-image: url('https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event)">
+      <div class="card" id="card1" style="background-image: url('https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event, 1)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
@@ -79,8 +79,8 @@
           <span class="star"></span>
         </div>
       </div>
-      <div class="card" style="background-image: url('assets/Osaka.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event)">
+      <div class="card" id="card2" style="background-image: url('assets/Osaka.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event,2)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
@@ -88,8 +88,8 @@
           <span class="star"></span>
         </div>
       </div>
-      <div class="card" style="background-image: url('https://img.delicious.com.au/WIXeICQZ/del/2018/12/istanbul-turkey-97382-2.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event)">
+      <div class="card"  id="card3" style="background-image: url('https://img.delicious.com.au/WIXeICQZ/del/2018/12/istanbul-turkey-97382-2.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event,3)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
@@ -97,8 +97,8 @@
           <span class="star"></span>
         </div>
       </div>
-      <div class="card" style="background-image: url('https://img.delicious.com.au/DGZCHR1s/del/2018/12/paris-france-97370-2.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event)">
+      <div class="card" id="card4" style="background-image: url('https://img.delicious.com.au/DGZCHR1s/del/2018/12/paris-france-97370-2.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event,4)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
@@ -106,8 +106,8 @@
           <span class="star"></span>
         </div>
       </div>
-      <div class="card" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event)">
+      <div class="card" id="card5" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event,5)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
@@ -115,8 +115,8 @@
           <span class="star"></span>
         </div>
       </div>
-      <div class="card" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event)">
+      <div class="card" id="card6" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
+        <div class="rating-bar" (click)="onStarClick($event,6)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
