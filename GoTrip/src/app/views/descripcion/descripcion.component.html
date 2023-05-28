@@ -15,8 +15,10 @@
         <h2>{{ ciudad }}</h2>
       </div>
       <div class="contenedor-guardar">
-        <span class="visitado"><i class="fa-solid fa-location-dot" width="100%" height="100%"></i>Visitado</span>
-        <span class="guardar" role="button"><i id="icon-guardar" class="fa-regular fa-bookmark" width="100%" height="100%"></i></span>
+        <span *ngIf="visitadoSitio == 'true'" class="visitado"><i class="fa-solid fa-location-dot" width="100%" height="100%"></i>Visitado</span>
+        <span *ngIf="visitadoSitio == 'false'" class="visitado"><i class="fa-solid fa-location-pin-lock" width="100%" height="100%"></i>No Visitado</span>
+        <span *ngIf="guardadoSitio == 'false'" class="fa-regular fa-bookmark" (click)="cambiarGuardado()" style="color:#1F5EFD" alt="bookmark" ></span>
+        <span *ngIf="guardadoSitio == 'true'" class="fa-solid fa-bookmark" (click)="cambiarGuardado()" style="color:#1F5EFD" alt="bookmark" ></span>
       </div>
     </div>
     <span class="rating">

@@ -17,7 +17,7 @@
       <!--<i class="fa-solid fa-search" style="color:black;"></i>-->
       <div class="row">
         <div class="col-md-4">
-          <div class="lugarBuscado" *ngFor="let ciudad of ciudades">
+          <div class="lugarBuscado" *ngFor="let ciudad of ciudades" (click)="irBusquedaRapida(ciudad)">
 
             <button class="btn-busqueda" role="button">{{ ciudad }}</button>
           </div>

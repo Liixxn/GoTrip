@@ -17,8 +17,8 @@ export class DescripcionComponent {
   imagenPortadaSitio = "";
   pais = "";
   ciudad = "";
-  visitadoSitio = false;
-  guardadoSitio = false;
+  visitadoSitio:string = ""
+  guardadoSitio:string = "";
   rating = 0;
   descripcionSitio = "";
   planificacionDias: any = [];
@@ -49,6 +49,7 @@ export class DescripcionComponent {
               this.imagenPortadaSitio = data[this.pais][i].imagenPortada;
             }
           }
+
 
           for (let i = 0; i < this.lugaresVisitar.length; i++) {
             for (let j = 0; j < this.lugaresVisitar[i].length; j++) {
@@ -126,6 +127,14 @@ export class DescripcionComponent {
 
 
 
+  }
+
+  public cambiarGuardado() {
+    if (this.guardadoSitio == "true") {
+      this.guardadoSitio = "false";
+    } else {
+      this.guardadoSitio = "true";
+    }
   }
 
 
