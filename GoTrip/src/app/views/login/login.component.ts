@@ -19,8 +19,9 @@ export class LoginComponent {
   onLogin(event: Event) {
     event.preventDefault(); // Prevent the default form submission behavior
     if (this.username === 'correo@uem.es' && this.password === 'password') {
-
       console.log('Login successful');
+      this.isInvalidUsername = false;
+      this.isInvalidPassword = false;
       this.router.navigate(['/perfil']); 
     } else {
 
@@ -28,5 +29,13 @@ export class LoginComponent {
       this.isInvalidUsername = true;
       this.isInvalidPassword = true;
     }
+  }
+
+  onUsernameChange() {
+    this.isInvalidUsername = false; // Reset the validation status when the username changes
+  }
+
+  onPasswordChange() {
+    this.isInvalidPassword = false; // Reset the validation status when the password changes
   }
 }
