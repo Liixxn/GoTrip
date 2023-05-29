@@ -4,11 +4,11 @@
         <div class="atras">
             <img src="assets/atras.png" alt="boton_atras">
         </div>
-        
+
     </div>
-    
+
     <form class="loginform" (submit)="onLogin($event)">
-    
+
         <span class="gotrip-logo">
             <img src="assets/GoTrip-logo.png" alt="logo">
         </span>
@@ -28,8 +28,8 @@
         <div class="login-btn-div">
             <button class="login-btn" type="submit" [disabled]="isInvalidUsername || isInvalidPassword">Login</button>
         </div>
-        <a class="register-link" href="url">Registrarse</a>
+        <a class ="register-link" [routerLink]="['/registro']">Registrarse</a>
     </form>
-    
-    
+
+
 </div>

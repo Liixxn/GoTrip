@@ -1,109 +1,110 @@
 .atras {
-    display: flex;
-    text-align: left;
-    margin-top: 2%;
-    margin-left: 2%;
-  
-  }
-  
-  .recuperarform {
-    font-family: 'Viga', sans-serif;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-    margin-top: 7%;
-  }
-  .gotrip-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    width: 50%;
-  }
-  .gotrip-logo img {
-      text-align: center;
-      
-      
-      width: 80%;
-      margin-bottom: 10%;
-    }
-  
-  .inputs {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 80%;
-    margin-bottom: 10%;
-    max-width: 400px;
-    
-  }
-  
-  .usernameinputdiv label {
-    font-family: 'Viga', sans-serif;
-    text-align: left;
-    margin-bottom: 4%;
-    font-size: 17px;
-    line-height: 100%;
-  }
-  
-  .usernameinput {
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 100%;
-    margin-bottom: 3%;
-    box-sizing: border-box;
-    background: rgba(8, 70, 231, 0.42);
-  
-  }
-  
-  .send-btn {
-    padding: 10px 20px;
-    background-color: #0846E7;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-  
-    cursor: pointer;
-  
-    font-family: 'Viga';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 100%;
-  }
-  
-  .send-btn:hover {
-    background-color: #00688B;
-  }
+  position: absolute;
+  left: 16px;
+  top: 19px;
+
+}
+
+.recuperarform {
+  font-family: 'Viga', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.gotrip-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 50%;
+}
+
+.gotrip-logo img {
+  text-align: center;
+
+
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 80%;
+  margin-bottom: 10%;
+  max-width: 400px;
+
+}
+
+.usernameinputdiv label {
+  font-family: 'Viga', sans-serif;
+  text-align: left;
+  margin-bottom: 4%;
+  font-size: 17px;
+  line-height: 100%;
+}
+
+.usernameinput {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+  background: rgba(8, 70, 231, 0.42);
+
+}
+
+.send-btn {
+  padding: 10px 20px;
+  background-color: #0846E7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+
+  cursor: pointer;
+
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.send-btn:hover {
+  background-color: #00688B;
+}
 
 .textmiddle {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
 }
+
 .title {
-    text-align: center;
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    margin-bottom: 20px;
-    color: #005792;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #005792;
 }
 
 .body {
-    text-align: center;
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 10%;
-    color: #005792;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10%;
+  color: #005792;
 }
-  

@@ -17,8 +17,8 @@ export class DescripcionComponent {
   imagenPortadaSitio = "";
   pais = "";
   ciudad = "";
-  visitadoSitio = false;
-  guardadoSitio = false;
+  visitadoSitio:string = ""
+  guardadoSitio:string = "";
   rating = 0;
   descripcionSitio = "";
   planificacionDias: any = [];
@@ -50,6 +50,7 @@ export class DescripcionComponent {
             }
           }
 
+
           for (let i = 0; i < this.lugaresVisitar.length; i++) {
             for (let j = 0; j < this.lugaresVisitar[i].length; j++) {
               if (this.lugaresVisitar[i][j].imagenUrl != undefined) {
@@ -65,9 +66,7 @@ export class DescripcionComponent {
         break;
       case 'USA':
         this.httpClient.get("assets/files/usa.txt").subscribe((data: any) => {
-          console.log(data);
           for (let i = 0; i < data[this.pais].length; i++) {
-            console.log(data[this.pais][i]);
             if (data[this.pais][i].nombreCiudad == this.ciudad) {
               this.lugaresVisitar.push(data[this.pais][i].lugaresAVisitar);
               this.descripcionSitio = data[this.pais][i].descripcion;
@@ -91,7 +90,7 @@ export class DescripcionComponent {
           }
 
         });
-        
+
         break;
       case 'España':
         this.httpClient.get("assets/files/spain.txt").subscribe((data: any) => {
@@ -128,6 +127,14 @@ export class DescripcionComponent {
 
 
 
+  }
+
+  public cambiarGuardado() {
+    if (this.guardadoSitio == "true") {
+      this.guardadoSitio = "false";
+    } else {
+      this.guardadoSitio = "true";
+    }
   }
 
 

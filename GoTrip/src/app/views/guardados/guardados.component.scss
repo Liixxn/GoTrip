@@ -1,4 +1,4 @@
-$gotrip-color: #1F5EFD;
+$gotrip-color: rgb(31, 94, 253);
 
 .seccion-favoritas {
   margin-top: 20px;
@@ -24,6 +24,7 @@ $gotrip-color: #1F5EFD;
   justify-content: space-evenly;
   overflow-y: scroll;
   padding-bottom: 50px;
+  margin-top: 20px;
 }
 
 .btn-guardar {
@@ -80,4 +81,42 @@ $gotrip-color: #1F5EFD;
 
 .fa-star {
   color: yellow;
+}
+
+
+h3 {
+  position: relative;
+  text-align: center;
+  margin: 0 auto 20px;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bold;
+  background-color: $gotrip-color;
+}
+
+h3::before, h3::after {
+  content: '';
+  width: 80px;
+  height: 100%;
+  background-color: $gotrip-color;
+
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
+
+  background-image: linear-gradient(45deg, transparent 50%, rgb(0, 48, 169) 50%);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+h3::before {
+  left: -60px;
+}
+
+h3::after {
+  right: -60px;
+  transform: scaleX(-1);
 }

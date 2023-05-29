@@ -11,7 +11,8 @@ import { Router } from '@angular/router';
 export class HomeComponent {
 
   sub:any = "";
-  ciudades = ["kioto", "madrid", "florida"];
+  ciudades = ["Kioto", "Madrid", "Orlando"];
+  paisesCiudadesEjemplos = ["Japón", "España", "USA"];
   ciudadesJapon = ["Tokyo", "Kioto", "Nagoya", "Osaka", "Kobe"];
   countries = ["USA", "JAPÓN", "ESPAÑA"];
   pais = "";
@@ -32,6 +33,12 @@ export class HomeComponent {
 
     }
 
+  }
+
+  public irBusquedaRapida(ciudad: string) {
+    this.pais = this.paisesCiudadesEjemplos[this.ciudades.indexOf(ciudad)];
+    this.ciudad = ciudad;
+    this.router.navigate(['/descripcion', this.pais, this.ciudad]);
   }
 
 

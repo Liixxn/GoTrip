@@ -17,7 +17,7 @@
       <!--<i class="fa-solid fa-search" style="color:black;"></i>-->
       <div class="row">
         <div class="col-md-4">
-          <div class="lugarBuscado" *ngFor="let ciudad of ciudades">
+          <div class="lugarBuscado" *ngFor="let ciudad of ciudades" (click)="irBusquedaRapida(ciudad)">
 
             <button class="btn-busqueda" role="button">{{ ciudad }}</button>
           </div>
@@ -28,9 +28,25 @@
 
 </section>
 
+<div class="contenedor-banner">
+<div class="banner">
+  <div class="banner-img">
+    <img src="https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="De viaje">
+  </div>
+
+  <div class="banner-texto">
+    <h4>Viaja con nosotros&#10024;</h4>
+  </div>
+</div>
+</div>
+
+
+
 
 <section class="seccion-tarjetas">
-  <h3>¡Conoce nuestros packs de viaje!</h3>
+  <div class="contenedor-titulo">
+    <h3>¡Conoce nuestros packs de viaje!</h3>
+  </div>
     <div class="scroll-content">
       <div class="card" [routerLink]="['/tour-list/USA']">
         <img class="card-img-top" src="https://eldiariony.com/wp-content/uploads/sites/2/2021/04/nueva-york-shutterstock_57571180.jpg?quality=75&strip=all&w=1200"
@@ -39,11 +55,11 @@
           <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png"></span>
           <span class="nombre-pais">USA</span>
           <span class="rating-pais">
-            <span class="fa fa-star s1"></span>
-            <span class="fa fa-star s2"></span>
-            <span class="fa fa-star s3"></span>
-            <span class="fa fa-star s4"></span>
-            <span class="fa fa-star s5"></span>
+            <span class="fa-solid fa-star s1"></span>
+            <span class="fa-solid fa-star s2"></span>
+            <span class="fa-solid fa-star s3"></span>
+            <span class="fa-solid fa-star s4"></span>
+            <span class="fa-solid fa-star-half-stroke"></span>
           </span>
         </div>
       </div>
@@ -55,11 +71,11 @@
           <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"></span>
           <span class="nombre-pais">Japón</span>
           <span class="rating-pais">
-            <span class="fa fa-star s1"></span>
-            <span class="fa fa-star s2"></span>
-            <span class="fa fa-star s3"></span>
-            <span class="fa fa-star s4"></span>
-            <span class="fa fa-star s5"></span>
+            <span class="fa-solid fa-star s1"></span>
+            <span class="fa-solid fa-star s2"></span>
+            <span class="fa-solid fa-star s3"></span>
+            <span class="fa-solid fa-star s4"></span>
+            <span class="fa-solid fa-star s5"></span>
           </span>
         </div>
       </div>
@@ -72,11 +88,11 @@
           <span class="bandera-pais"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_España.svg/2560px-Bandera_de_España.svg.png"></span>
           <span class="nombre-pais">España</span>
           <span class="rating-pais">
-            <span class="fa fa-star s1"></span>
-            <span class="fa fa-star s2"></span>
-            <span class="fa fa-star s3"></span>
-            <span class="fa fa-star s4"></span>
-            <span class="fa fa-star s5"></span>
+            <span class="fa-solid fa-star s1"></span>
+            <span class="fa-solid fa-star s2"></span>
+            <span class="fa-solid fa-star s3"></span>
+            <span class="fa-solid fa-star s4"></span>
+            <span class="fa-solid fa-star-half-stroke"></span>
           </span>
         </div>
       </div>
