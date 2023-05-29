@@ -108,3 +108,25 @@
   margin-bottom: 10%;
   color: #005792;
 }
+
+
+.contenedor-error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.send-message {
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}

@@ -7,6 +7,9 @@
           <input id="lugarInput" type="text" class="form-control form-input" placeholder="Busca tu lugar..." style="color: white;">
           <span class="span-eliminar" role="button" (click)="eliminarBusqueda()" l><i class="fa fa-x"></i></span>
         </div>
+        <div class="contenedor-error">
+          <small class="error-message" *ngIf="buscarIncorrecto">Lugar no encontrado</small>
+        </div>
       </div>
     </div>
   </div>

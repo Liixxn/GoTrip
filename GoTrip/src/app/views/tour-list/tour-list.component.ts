@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tour-list',
@@ -10,19 +11,22 @@ import { switchMap } from 'rxjs/operators';
 })
 export class TourListComponent implements OnInit {
 
+  sub:any = "";
+  ciudad: string = "";
   ciudades: any[] = [];
-  pais: string | null = null;
+  pais: string | null = "";
   imagenPais: string = "";
-  media: number = 0; 
+  media: number = 0;
 
 
   constructor(
     private http: HttpClient,
-    private route: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) {}
 
   ngOnInit() {
-    this.route.paramMap.pipe(
+    this.activatedRoute.paramMap.pipe(
       switchMap(params => {
         this.pais = params.get('pais');
 
@@ -47,11 +51,20 @@ export class TourListComponent implements OnInit {
       this.ciudades = data[this.pais || ''] || [];
     });
   }
-  /*
-   public  esGuardada (){
-    if (this.ciudades.guardado == true){
 
-    }
+  public cargarDescripcion() {
+    this.sub = this.activatedRoute.params.subscribe(params => {
+      this.pais = params['pais'];
+      this.ciudad = params['ciudad'];
+    });
+
   }
-  */
+
+  public irCarrusel(pais: string, ciudad: string) {
+    this.router.navigate(['/carrusel', pais, ciudad]);
+  }
+
+  public irDescripcion(pais: string, ciudad: string){
+    this.router.navigate(['/descripcion', pais, ciudad]);
+  }
 }

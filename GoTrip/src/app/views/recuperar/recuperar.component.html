@@ -24,14 +24,18 @@
     <div class="inputs">
         <div class="usernameinputdiv">
             <label>Correo : </label><br>
-            <input class="usernameinput" type="text" name="username">
+            <input class="usernameinput" id="correo-recuperar" type="text" name="username">
         </div>
+      <div class="contenedor-error">
+        <small class="error-message" *ngIf="correoVacio">Error al enviar el correo</small>
+        <small class="send-message" *ngIf="enviadoCorrecto">Se ha enviado un correo a su cuenta para recuperar su contraseña</small>
+      </div>
 
     </div>
 
 
     <div class="send-btn-div">
-    <button class="send-btn">
+    <button class="send-btn" (click)="mandarCorreo()">
     Enviar
     </button>
     </div>

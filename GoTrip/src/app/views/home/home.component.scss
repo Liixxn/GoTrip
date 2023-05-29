@@ -101,6 +101,19 @@ $gotrip-color: #1F5EFD;
 }
 
 
+.contenedor-error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
 
 
 

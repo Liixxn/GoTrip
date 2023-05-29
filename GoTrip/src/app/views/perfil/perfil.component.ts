@@ -52,12 +52,12 @@ export class PerfilComponent implements OnInit {
       if (card) {
         const stars = card.getElementsByClassName('star');
         const starIndex = Array.from(stars).indexOf(starClicked);
-  
+
         // Clear all stars within the card
         for (let i = 0; i < stars.length; i++) {
           stars[i].classList.remove('filled');
         }
-  
+
         // Fill stars up to the clicked index within the card
         for (let i = 0; i <= starIndex; i++) {
           stars[i].classList.add('filled');

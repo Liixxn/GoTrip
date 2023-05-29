@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 <div class="all">
     <div>
-        <div class="atras">
+        <div class="atras" [routerLink]="['']">
             <img src="assets/atras.png" alt="boton_atras">
         </div>
 
@@ -16,13 +16,13 @@
             <div class="usernameinputdiv">
                 <label>Correo :</label><br>
                 <input class="usernameinput" type="text" name="username" [(ngModel)]="username" [ngClass]="{ 'invalid-input': isInvalidUsername }" (input)="onUsernameChange()">
-                <small class="error-message" *ngIf="isInvalidUsername">Invalid username</small>
+                <small class="error-message" *ngIf="isInvalidUsername">Usuario incorrecto</small>
             </div>
             <div class="passwordinputdiv">
                 <label>Contraseña :</label><br>
                 <input class="passwordinput" type="password" name="password" [(ngModel)]="password" [ngClass]="{ 'invalid-input': isInvalidPassword }" (input)="onPasswordChange()">
-                <small class="error-message" *ngIf="isInvalidPassword">Invalid password</small>
-                <a class="forgot-link" href="url">¿Olvidó su contraseña?</a>
+                <small class="error-message" *ngIf="isInvalidPassword">Contraseña incorrecta</small>
+                <a class="forgot-link" [routerLink]="['/recuperar']">¿Olvidó su contraseña?</a>
             </div>
         </div>
         <div class="login-btn-div">
