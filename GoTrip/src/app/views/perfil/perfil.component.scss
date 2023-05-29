@@ -129,6 +129,17 @@ margin-bottom: 25px !important;
   display: inline-block;
   overflow: hidden;
   position: relative;
+  .nombre-pais {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    color: #fff; /* Set the text color */
+    font-size: 14px;
+    /* Add any other desired styles for the nombre-pais class */
+  }
 }
 
 

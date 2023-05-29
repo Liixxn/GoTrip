@@ -29,18 +29,9 @@
     <span class = "name">Reservas</span>
    </div>
    <div class="scrolling-wrapper0">
-
-    <div class="card" style="background-image: url('assets/Kyoto.jpg')">
+    <div class="card" *ngFor="let guardadoLugar of lugaresAVisitar" (click)="irDescripcion(guardadoLugar['pais'], guardadoLugar['lugar']['nombreCiudad'])" [style.background-image]="'url(' + guardadoLugar['lugar']['imagenPortada'] + ')'" [style.background-size]="'cover'">
+      <span class="nombre-pais">{{ guardadoLugar['lugar']["nombreCiudad"] }}, {{ guardadoLugar["pais"] }} </span>
     </div>
-    <div class="card" style="background-image: url('https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg')">
-    </div>
-    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSj27udv76hpN7L4royLkJQ2mzsqkphzixWQ&usqp=CAU')">
-    </div>
-    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHSGme6Zza43Amj_W6H5hRuvUVw7YeCuqNw&usqp=CAU')">
-    </div>
-    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOU2pioMi24TX-A3fGltXVgtErLTwLON86Zg&usqp=CAU')">
-    </div>
-
   </div>
    <div class ="content">
     <div class="tab-links-div">
@@ -108,15 +99,6 @@
       </div>
       <div class="card" id="card5" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
         <div class="rating-bar" (click)="onStarClick($event,5)">
-          <span class="star"></span>
-          <span class="star"></span>
-          <span class="star"></span>
-          <span class="star"></span>
-          <span class="star"></span>
-        </div>
-      </div>
-      <div class="card" id="card6" style="background-image: url('https://www.ourescapeclause.com/wp-content/uploads/2020/05/shutterstock_134874083-scaled.jpg')">
-        <div class="rating-bar" (click)="onStarClick($event,6)">
           <span class="star"></span>
           <span class="star"></span>
           <span class="star"></span>
