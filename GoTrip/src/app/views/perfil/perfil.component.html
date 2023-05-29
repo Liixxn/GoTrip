@@ -25,36 +25,19 @@
    <div class="profilename">
     <span class = "name">Nombre</span>
    </div>
-   <div class="reserva-label">
-    <span class = "name">Reservas</span>
-   </div>
-   <div class="scrolling-wrapper0">
-    <div class="card" *ngFor="let guardadoLugar of lugaresAVisitar" (click)="irDescripcion(guardadoLugar['pais'], guardadoLugar['lugar']['nombreCiudad'])" [style.background-image]="'url(' + guardadoLugar['lugar']['imagenPortada'] + ')'" [style.background-size]="'cover'">
-      <span class="nombre-pais">{{ guardadoLugar['lugar']["nombreCiudad"] }}, {{ guardadoLugar["pais"] }} </span>
-    </div>
-  </div>
+
    <div class ="content">
     <div class="tab-links-div">
       <div class="tab-links">
-        <a class="tab-link" href="#scrollWrapper1"  [class.active]="activeWrapperIndex === 1" (click)="scrollToWrapper(1)">Guardados</a>
+        <a class="tab-link" href="#scrollWrapper1"  [class.active]="activeWrapperIndex === 1" (click)="scrollToWrapper(1)">Reservas</a>
         <a class="tab-link" href="#scrollWrapper2" [class.active]="activeWrapperIndex === 2" (click)="scrollToWrapper(2)">Visitados</a>
         <!-- Add more tab links as needed -->
       </div>
     </div>
-    
-
 
     <div class="scrolling-wrapper" id="scrollWrapper1" [ngClass]="{'hidden': activeWrapperIndex !== 1}">
-
-      <div class="card" style="background-image: url('assets/Kyoto.jpg')">
-      </div>
-      <div class="card" style="background-image: url('https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg')">
-      </div>
-      <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSj27udv76hpN7L4royLkJQ2mzsqkphzixWQ&usqp=CAU')">
-      </div>
-      <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHSGme6Zza43Amj_W6H5hRuvUVw7YeCuqNw&usqp=CAU')">
-      </div>
-      <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOU2pioMi24TX-A3fGltXVgtErLTwLON86Zg&usqp=CAU')">
+      <div class="card" *ngFor="let guardadoLugar of lugaresAVisitar" (click)="irDescripcion(guardadoLugar['pais'], guardadoLugar['lugar']['nombreCiudad'])" [style.background-image]="'url(' + guardadoLugar['lugar']['imagenPortada'] + ')'" [style.background-size]="'cover'">
+        <span class="nombre-pais">{{ guardadoLugar['lugar']["nombreCiudad"] }}, {{ guardadoLugar["pais"] }} </span>
       </div>
 
     </div>
