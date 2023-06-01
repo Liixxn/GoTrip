@@ -1,48 +1,49 @@
-
-<div class="atras" [routerLink]="['']">
+<div class="atras-contenedor" [routerLink]="['']">
   <img src="/assets/atras.png" alt="atras" class="atras"/>
 </div>
 
 
 <div class="body">
   <div class="banner-container">
-    <img [src]="imagenPais" alt="Banner" class="banner" />
+    <img [src]="imagenPais" alt="Banner" class="banner"/>
     <img src="/assets/rectangulo_blanco.png" alt="rectangulo" class="rectangulo-banner"/>
     <div class="titulo">
       <span>{{pais}}</span>
     </div>
-
-
-
-  </div>
-  <div class="elipse">
-    <span class="media">{{media}}/5</span>
-  </div>
-
-  <div class="ciudades-scroll">
-    <div class="tarjetas-container">
-      <div class="tarjeta" *ngFor="let ciudad of ciudades">
-        <img
-          src="/assets/rectangulo.png"
-          alt="rectangulo"
-          class="rectangulo-tarjeta"
-        />
-        <img
-          [src]="ciudad.imagenPortada"
-          alt="{{ ciudad.nombreCiudad }}"
-          class="imagenCiudad"
-        />
-        <span class="ciudad"><span>{{ ciudad.nombreCiudad }}</span></span>
-        <span *ngIf="ciudad.guardado == 'false'" id= "guardadoFalse" class="fa-regular fa-bookmark" style="color:#1F5EFD" alt="bookmark" ></span>
-        <span *ngIf="ciudad.guardado == 'true'" id= "guardadoTrue" class="fa-solid fa-bookmark" style="color:#1F5EFD" alt="bookmark" ></span>
-        <span class="dias"><span>{{ ciudad.dias }}</span></span>
-        <span class="precio"><span>{{ ciudad.precio }}</span></span>
-        <span class="valoracion"><span>{{ ciudad.valoracion }}</span></span>
-        <img src="/assets/estrella.png" alt="estrella" class="estrella" />
-      </div>
-    </div>
   </div>
 </div>
 
+
+<div class="contenedor-lugares">
+  <div class="elipse">
+    <span class="media">{{media}}/5</span>
+  </div>
+    <div class="ciudades-scroll">
+      <div class="tarjetas-container">
+        <div class="tarjeta" *ngFor="let ciudad of ciudades" (click)="irDescripcion(pais, ciudad.nombreCiudad)">
+          <img
+            src="/assets/rectangulo.png"
+            alt="rectangulo"
+            class="rectangulo-tarjeta"
+          />
+          <img
+            [src]="ciudad.imagenPortada"
+            alt="{{ ciudad.nombreCiudad }}"
+            class="imagenCiudad"
+          />
+          <span class="ciudad"><span>{{ ciudad.nombreCiudad }}</span></span>
+          <span *ngIf="ciudad.guardado == 'false'" id="guardadoFalse" class="fa-regular fa-bookmark"
+                style="color:#1F5EFD"
+                alt="bookmark"></span>
+          <span *ngIf="ciudad.guardado == 'true'" id="guardadoTrue" class="fa-solid fa-bookmark" style="color:#1F5EFD"
+                alt="bookmark"></span>
+          <span class="dias"><span>{{ ciudad.dias }}</span></span>
+          <span class="precio"><span>{{ ciudad.precio }}</span></span>
+          <span class="valoracion"><span>{{ ciudad.valoracion }}</span></span>
+          <img src="/assets/estrella.png" alt="estrella" class="estrella"/>
+        </div>
+      </div>
+  </div>
+</div>
 
 <app-barra-navegacion></app-barra-navegacion>

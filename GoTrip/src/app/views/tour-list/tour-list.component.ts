@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 export class TourListComponent implements OnInit {
 
   sub:any = "";
-  ciudad: string = "";
+  ciudad: string | null = "";
   ciudades: any[] = [];
   pais: string | null = "";
   imagenPais: string = "";
@@ -28,6 +28,7 @@ export class TourListComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.paramMap.subscribe(params => {
       this.pais = params.get('pais');
+      this.ciudad = params.get('ciudad');
       this.loadCountryData(this.pais);
     });
   }
@@ -75,7 +76,7 @@ export class TourListComponent implements OnInit {
     this.router.navigate(['/carrusel', pais, ciudad]);
   }
 
-  public irDescripcion(pais: string, ciudad: string){
+  public irDescripcion(pais: string | null, ciudad: string | null) {
     this.router.navigate(['/descripcion', pais, ciudad]);
   }
 }

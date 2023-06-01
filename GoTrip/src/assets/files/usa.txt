@@ -5,7 +5,7 @@
       "precio": "148€",
 	  "dias": "5 días",
 	  "descripcion": "Una metrópolis vibrante y diversa que nunca duerme.",
-	  "imagenPortada": "https://mindfultravelbysara.com/wp-content/uploads/2015/05/nueva-york-imprescindibl.jpg",
+	  "imagenPortada": "https://www.civitatis.com/blog/wp-content/uploads/2016/05/Estatua-de-la-Libertad.jpg",
 	  "guardado": "true",
 	  "visitado": "true",
 	  "valoracion": "4.9",
@@ -28,14 +28,14 @@
 		  "descripcion": "Icono arquitectónico impresionante que une los distritos de Manhattan y Brooklyn",
 		  "dia": "Día 3 - 9:30 AM"
         },
-		
+
 		{
 		"nombreLugar": "Times Square",
 		  "imagenUrl": "https://entre7maletas.com/wp-content/uploads/2021/12/times-square-1.jpg",
 		  "descripcion": "Epicentro vibrante y electrizante, conocido por sus deslumbrantes luces de neón",
 		  "dia": "Día 4 - 17:00 PM"
 	 },
-			
+
 		{
 		"nombreLugar": "Empire State Building",
 		  "imagenUrl": "https://media.timeout.com/images/101705309/image.jpg",
