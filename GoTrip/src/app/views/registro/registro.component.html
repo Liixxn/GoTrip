@@ -1,33 +1,36 @@
-
-
 <span class="atras" [routerLink]="['']">
     <img src="assets/atras.png" alt="boton_atras">
 </span>
 <form class="registroform">
-    <h1 class="registro-title">Regístrate</h1>
-    <span class="imagen-registro">
+  <h1 class="registro-title">Regístrate</h1>
+  <span class="imagen-registro">
     <img src="assets/imagenRegistro.png" alt="logo">
     </span>
-    <div class="inputs">
-        <div class="usernameinputdiv">
-            <label>Correo : </label><br>
-            <input class="usernameinput" type="text" name="username">
-            </div>
-
-            <div class="passwordinputdiv">
-            <label>Contraseña : </label><br>
-            <input class="passwordinput" type="password" name="password">
-            <label>Confirmar Contraseña : </label><br>
-            <input class="passwordinput" type="password" name="password">
-
-        </div>
+  <div class="inputs">
+    <div class="usernameinputdiv">
+      <label>Correo : </label><br>
+      <input class="usernameinput" id="correo-registro" type="text" name="username">
+      <small class="message" *ngIf="mensajeErrorCorreo">{{ mensajeCorreo }}</small>
     </div>
 
+    <div class="passwordinputdiv">
+      <label>Contraseña : </label><br>
+      <input class="passwordinput" id="password-registro" type="password" name="password">
+      <small class="message" *ngIf="mensajeErrorContrasenia">{{ mensajeContrasenia }}</small>
+    </div>
+    <div class="passwordinputdiv">
+      <label>Confirmar Contraseña : </label><br>
+      <input class="passwordinput" id="confirmacion-registro" type="password" name="password">
+      <small class="message" *ngIf="mensajeErrorConfirmacion">{{ mensajeConfirmacion }}</small>
+    </div>
 
-    <div class="registro-btn-div">
-    <button class="registro-btn" [routerLink]="['/login']">
-    Registrar
+  </div>
+
+
+  <div class="registro-btn-div">
+    <button class="registro-btn" (click)="confirmarRegistro()">
+      Registrar
     </button>
-    </div>
-    <a class ="register-link" [routerLink]="['/login']">¿Ya tiene una cuenta?</a>
+  </div>
+  <a class="register-link" [routerLink]="['/login']">¿Ya tiene una cuenta?</a>
 </form>
