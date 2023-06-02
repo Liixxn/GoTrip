@@ -41,13 +41,14 @@
       <img class="imagenTarjeta" src="assets/Googlepay.png" alt="Googlepay">
     </button>
   </div>
-  <br>
+
   <div class="inputdiv">
     <label>Número de tarjeta: </label><br>
     <div class="input-with-icon">
       <input class="campoinput" type="text" name="tarjeta" placeholder="0123-4567-8900-0000">
       <img class="fotoTarjeta" [src]="fotoTarjetaSrc" alt="tarjeta">
     </div>
+  </div>
 
     <div class="inputdiv">
       <label>Expiración y CCV: </label>
@@ -58,7 +59,6 @@
       </div>
     </div>
 
-  </div>
   <div class="reservar-btn-div">
     <button class="reservar-btn" (click)="mostrarReservaRealizada()">
       <label>Reservar</label>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lato:wght@300&family=Oswald&family=Source+Sans+Pro:wght@600&display=swap');
+
+
 $gotrip-color: #1F5EFD;
 
 
@@ -22,7 +25,7 @@ $gotrip-color: #1F5EFD;
 }
 
 .form-control[type=text] {
-
+  font-family: 'Viga', sans-serif;
   width: 100%;
   padding: 12px 35px;
   box-sizing: border-box;
@@ -65,7 +68,9 @@ $gotrip-color: #1F5EFD;
 }
 
 .titulo{
-  font-family: 'Viga', sans-serif;
+  font-family: 'Patua one', cursive;
+  font-weight: bold;
+  color: #0846E7;
 }
 .container {
   display: flex;
@@ -181,6 +186,9 @@ $gotrip-color: #1F5EFD;
 }
 
 .nombre-pais {
+  font-family: 'Viga', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   color: white;
 }
 

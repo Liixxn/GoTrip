@@ -13,17 +13,22 @@ export class RecuperarComponent {
 
   public mandarCorreo() {
     let correo = (<HTMLInputElement>document.getElementById("correo-recuperar")).value;
+    let inputCorreo = (<HTMLInputElement>document.getElementById("correo-recuperar"));
 
     if (correo == "") {
       this.correoVacio = true;
+      inputCorreo.style.border = "1px solid red";
+
     }
     else {
       if (this.expresionEmail.test(correo)) {
         this.correoVacio = false;
         this.enviadoCorrecto = true;
+        inputCorreo.style.border = "1px solid green";
       }
       else {
         this.enviadoCorrecto = false;
+        inputCorreo.style.border = "1px solid red";
       }
     }
 

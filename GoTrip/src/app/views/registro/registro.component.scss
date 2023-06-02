@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lato:wght@300&family=Oswald&family=Source+Sans+Pro:wght@600&display=swap');
+
 .atras {
   position: absolute;
   left: 16px;
@@ -6,7 +8,8 @@
 }
 
 .registro-title {
-  font-family: 'Source Code Pro';
+  font-family: 'Patua one', cursive;
+  font-weight: bold;
   color: #0846E7;
 }
 
@@ -43,16 +46,20 @@
 
 }
 
+.usernameinputdiv, .passwordinputdiv, .passwordinputdiv {
+  margin-bottom: 8%;
+}
+
+
 .usernameinputdiv label, .passwordinputdiv label {
   text-align: left;
-  font-weight: bold;
-  font-family: 'Source Code Pro';
+
   font-style: normal;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   font-weight: 600;
   font-size: 17px;
   line-height: 100%;
+
 }
 
 .usernameinput {
@@ -81,6 +88,9 @@
 
 .message {
   color: red;
+  line-height: 100%;
+  font-weight: 600;
+  font-style: normal;
   font-size: 12px;
 }
 
@@ -90,11 +100,7 @@
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
-
   cursor: pointer;
-
-  font-family: 'Viga';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -105,14 +111,10 @@
   background-color: #00688B;
 }
 
-.forgot-link {
-  text-align: right;
-  display: block;
-  margin-top: 10px;
-  color: #3051FF;
-}
 
 .register-link {
+  font-style: normal;
+  font-weight: bold;
   display: block;
   margin-top: 5%;
   margin-bottom: 10%;

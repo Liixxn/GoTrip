@@ -4,9 +4,9 @@
     margin-left: 10%;
 }
   .ajustes-titulo {
-    font-family: 'Patua One' sans-serif;
+    font-family: 'Patua One', cursive;
     font-weight: bold;
-    color: black;
+    color: #0846E7;
     font-size: 40px;
 }
 .rectangulo {
@@ -46,17 +46,17 @@
       width: 80%;
       margin-bottom: 10%;
     }
-  
-  
+
+
   .inputs {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 80%; 
+    width: 80%;
     max-width: 400px;
-    
+
   }
-  
+
   .inputdiv label {
     text-align: left;
     font-weight: bold;
@@ -67,7 +67,7 @@
     font-size: 17px;
     line-height: 100%;
   }
-  
+
   .campoinput {
     padding: 10px;
     border: 2px solid #ccc;
@@ -77,7 +77,7 @@
     margin-bottom: 7%;
     box-sizing: border-box;
     background: rgba(8, 70, 231, 0.42);
-  
+
   }
   .campoinput2 {
     padding: 10px;
@@ -88,23 +88,23 @@
     height: 100px;
     box-sizing: border-box;
     background: rgba(8, 70, 231, 0.42);
-  
+
   }
 
-  
+
   .enviar-btn:hover {
     background-color: #00688B;
   }
-  
- 
+
+
   .enviar-btn-div {
     display: flex;
     justify-content: center;
-    margin-top: 40px; 
+    margin-top: 40px;
   }
   .enviar-btn img {
-    width: 20px; 
-    height: 20px; 
+    width: 20px;
+    height: 20px;
   }
 .enviar-btn {
     padding: 10px 20px;
@@ -123,5 +123,4 @@
 }
 
 
-  
-  
+

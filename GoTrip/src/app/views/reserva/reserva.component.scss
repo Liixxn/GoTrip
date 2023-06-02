@@ -10,215 +10,217 @@
   width: 20%;
   height: 20%;
 }
+
 .atras {
-    position: absolute;
-    top: 4%;
-    left: 4%;
-    width: 50px;
-    height: 50px;
-  }
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  width: 50px;
+  height: 50px;
+}
 
 body {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 10px;
-    overflow-x: hidden;
-  }
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+}
 
-  .banner-container {
-    position: relative;
-    width: 100%;
-    height: 210px;
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 210px;
 
-  }
+}
 
-  .banner {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
 
-  }
+}
+
 .Reservaform {
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-.titulo{
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    margin-top: 1%;
-    margin-bottom: 4%;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 100%;
+
+.titulo {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Viga', sans-serif;
+  font-style: normal;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  font-size: 17px;
+  line-height: 100%;
 
 }
-span{
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    color: blue;
-    margin-top: 1%;
-    margin-bottom: 4%;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 100%;
+
+span {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  color: blue;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 100%;
 }
+
 .campoinput {
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 100%;
-    margin-bottom: 7%;
-    box-sizing: border-box;
-    background: rgba(8, 70, 231, 0.42);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 7%;
+  box-sizing: border-box;
+  background: rgba(8, 70, 231, 0.42);
 }
+
 .campoinput2 {
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 50%;
-    margin-bottom: 7%;
-    box-sizing: border-box;
-    background: rgba(8, 70, 231, 0.42);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 50%;
+  margin-bottom: 7%;
+  box-sizing: border-box;
+  background: rgba(8, 70, 231, 0.42);
 }
 
 .reservar-btn:hover {
-    background-color: #00688B;
+  background-color: #00688B;
 }
 
 .reservar-btn-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
 .reservar-btn {
-    padding: 10px 20px;
-    background-color: #0846E7;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: 'Viga';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 100%;
-    align-self: flex-end;
-    margin-bottom: 20px;
-    width: 100%;
+  padding: 10px 20px;
+  background-color: #0846E7;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-.inputs {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 80%;
-    max-width: 400px;
-  }
+.inputdiv {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
 
-  .inputdiv label {
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    margin-bottom: 4%;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 100%;
-  }
-  .subtitulos label {
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Jockey One';
-    font-style: normal;
-    margin-bottom: 4%;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 100%;
-  }
-  .tituloTarjeta{
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 100%;
-  }
-  .metodoPago{
-    display: flex;
-    flex-direction: row;
+.inputdiv label {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Viga', sans-serif;
+  font-style: normal;
+  margin-bottom: 4%;
+  font-size: 17px;
+  line-height: 100%;
+}
 
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+.subtitulos label, span {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Viga', sans-serif;
+  font-style: normal;
+  margin-bottom: 4%;
+  font-size: 17px;
+  line-height: 100%;
+}
+
+.tituloTarjeta {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Viga', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 100%;
+}
+
+.metodoPago {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 
 
-  }
+}
 
-  .input-with-icon {
-    position: relative;
-  }
+.input-with-icon {
+  position: relative;
+}
 
-  .input-with-icon input {
-    padding-right: 30px;
-    margin-bottom: 5px;
-  }
+.input-with-icon input {
+  padding-right: 30px;
+  margin-bottom: 5px;
+}
 
 
-  .input-with-icon .fotoTarjeta {
-    position: absolute;
-    top: 45%;
-    right: 10px;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 20px;
-  }
+.input-with-icon .fotoTarjeta {
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 20px;
+}
 
-  .tarjeta-btn:hover {
-    background-color: #4ebb59;
+.tarjeta-btn:hover {
+  background-color: #4ebb59;
 }
 
 
 .tarjeta-btn img {
-    width: 40px;
-    height: 20px;
+  width: 40px;
+  height: 20px;
 }
 
 .tarjeta-btn {
-    padding: 10px 20px;
-    background-color: rgba(8, 70, 231, 0.42);
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: 'Viga';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 100%;
-    align-self: flex-end;
+  padding: 10px 20px;
+  background-color: rgba(8, 70, 231, 0.42);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  align-self: flex-end;
 }
+
 @media (max-width: 351px) {
-    .metodoPago {
-      flex-wrap: wrap;
-      justify-content: flex-start;
+  .metodoPago {
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
-    }
-
-    .tarjeta-btn {
-      width: 46%;
-      margin-top: 5%;
-
-      margin-left: 3%;
-    }
   }
+
+  .tarjeta-btn {
+    width: 46%;
+    margin-top: 5%;
+
+    margin-left: 3%;
+  }
+}
