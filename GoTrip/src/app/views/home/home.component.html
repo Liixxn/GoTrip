@@ -17,7 +17,7 @@
 
   <div class="contenedor-buscados">
     <div class="container">
-
+      <!--<i class="fa-solid fa-search" style="color:black;"></i>-->
       <div class="row">
         <div class="col-md-4">
           <div class="lugarBuscado" *ngFor="let ciudad of ciudades" (click)="irBusquedaRapida(ciudad)">
@@ -48,7 +48,7 @@
 
 <section class="seccion-tarjetas">
   <div class="contenedor-titulo">
-    <h3>¡Conoce nuestros packs de viaje!</h3>
+    <h3 class = "titulo">¡Conoce nuestros packs de viaje!</h3>
   </div>
     <div class="scroll-content">
       <div class="card" [routerLink]="['/tour-list/USA']">

@@ -64,6 +64,9 @@ $gotrip-color: #1F5EFD;
   margin-top: 20px;
 }
 
+.titulo{
+  font-family: 'Viga', sans-serif;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -222,7 +225,7 @@ $gotrip-color: #1F5EFD;
   text-align: center;
 
   h4 {
-    font-szie: 12px;
+    font-size: 12px;
     color: white;
     font-weight: bold;
     text-align: center;

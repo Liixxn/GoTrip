@@ -5,7 +5,10 @@ $gotrip-color: rgb(31, 94, 253);
   height: 100%;
 
 }
+.titulo{
+  font-family: 'patua one', sans-serif;
 
+}
 .contenedor-favoritas {
   display: flex;
   flex-direction: column;
@@ -77,6 +80,8 @@ $gotrip-color: rgb(31, 94, 253);
 
 .nombre-pais {
   color: black;
+  font-weight: bold;
+  font-family: 'viga', sans-serif;
 }
 
 .fa-star {

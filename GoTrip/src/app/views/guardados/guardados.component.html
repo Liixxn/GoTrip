@@ -1,6 +1,6 @@
 <section class="seccion-favoritas">
   <div class="contenedor-favoritas">
-    <h3>Lista de Guardados</h3>
+    <h3 class="titulo">Lista de Guardados</h3>
     <div class="scroll-content">
       <div class="card" *ngFor="let guardadoLugar of lugaresVisitar" (click)="irDescripcion(guardadoLugar['pais'], guardadoLugar['lugar']['nombreCiudad'])">
         <button class="btn-guardar"><span><i class="fa-solid fa-bookmark" style="color:#1F5EFD;"></i></span></button>
