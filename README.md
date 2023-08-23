@@ -20,7 +20,20 @@
 <a href="https://www.jetbrains.com/es-es/webstorm/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/WebStorm_Icon.svg" alt="Logo de WebStorm" width="40" height="40"></a>
 <a href="https://developer.android.com/studio" target="_blank"><img src="https://developer.android.com/static/studio/images/new-studio-logo-1.png" alt="Logo de Android Studio" width="40" height="40"></a>
 
+<hr>
 
+<h3>Instalación</h3>
+
+<p>Para lanzar y poder navegar por la aplicación se tienen 2 opciones, dependiendo de por qué medio se quiera visualizar:
+  <ul>
+    <li>📱<b>Móviles</b>: Ejecutar el archivo .apk</li>
+    <li>💻<b>Ordenador</b>: Lanzar el proyecto a través de la terminal</li>
+  </ul>
+</p>
+
+<h4>📱<b>Móvil</b></h4>
+
+<p>El archivo </p>
 
 
 
