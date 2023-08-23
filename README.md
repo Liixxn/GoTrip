@@ -33,7 +33,42 @@
 
 <h4>📱<b>Móvil</b></h4>
 
-<p>El archivo </p>
+<p>El archivo que se llama GoTrip.apk, solo haría falta descargarlo y ejecutarlo, para que instale la aplicación. Una vez instalada ya se puede acceder a todas las funcionalidades.</p>
+
+<h4>💻<b>Ordenador</b></h4>
+
+<p>Para poder lanzar la aplicación en el ordenador, tras descargar el .zip y descomprimirlo dónde se quiera. A continuación abra una terminal y navege hasta dónde situó el proyecto. 
+Debe encontrarse con una ruta parecida a esta: </p>
+
+```
+PS C:\Users\[nombre del usuario]\[Lugar donde lo guardó]\GoTrip> 
+```
+
+<p>Introduzca el siguiente comando: </p>
+
+```
+cd GoTrip
+```
+
+<p>Y una vez dentro debe instalar todas las librerías necesarias para que funcione correctamente, con: </p>
+
+```
+npm install
+```
+
+<p>Terminada la instalación, ejecute: </p>
+
+```
+ng serve -o
+```
+
+<p>Y tendrá desplegada la aplicación en su navegador web.</p>
+
+<hr>
+
+<h3>Aspecto de la aplicación</h3>
+
+<p>La aplicación consta de varias ventanas, en la que se pueden realizar diferentes acciones.</p>
 
 
 
