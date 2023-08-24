@@ -69,7 +69,32 @@ ng serve -o
 <h3>Aspecto de la aplicación</h3>
 
 <p>La aplicación consta de varias ventanas, en la que se pueden realizar diferentes acciones.</p>
+<p align="center">
+  <img align="center" src="GoTrip/imgs/home.png" alt="Home principal" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/guardados.png" alt="Lista de guardados" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/tourlist.png" alt="Lista de ciudades" width="30%" height="30%"/>
+</p>
+
+<hr>
+
+<p align="center">
+  <img align="center" src="GoTrip/imgs/descripcion.png" alt="Descripción del viaje" width="30%" height="30%"/>
+    <img align="center" src="GoTrip/imgs/reservar.png" alt="Reserva del viaje" width="30%" height="30%"/>
+</p>
 
 
+<hr>
 
+<p align="center">
+  <img align="center" src="GoTrip/imgs/login.png" alt="Login" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/registro.png" alt="Registro" width="30%" height="30%"/>
+</p>
+
+<hr>
+
+<p align="center">
+  <img align="center" src="GoTrip/imgs/perfil.png" alt="Perfil del usuario" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/ajustes.png" alt="Ajustes" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/editar.png" alt="Editar información de la cuenta" width="30%" height="30%"/>
+</p>
 
