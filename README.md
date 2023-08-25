@@ -79,7 +79,8 @@ ng serve -o
 
 <p align="center">
   <img align="center" src="GoTrip/imgs/descripcion.png" alt="Descripción del viaje" width="30%" height="30%"/>
-    <img align="center" src="GoTrip/imgs/reservar.png" alt="Reserva del viaje" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/reservar.png" alt="Reserva del viaje" width="30%" height="30%"/>
+  <img align="center" src="GoTrip/imgs/carrusel.png" alt="Lugares de interés de la ciudad" width="30%" height="30%"/>
 </p>
 
 
